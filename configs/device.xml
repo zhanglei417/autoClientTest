@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Device name="appiumstartList">
+    <deviceId id="0">
+        <deviceName>MSM8926</deviceName>
+        <appiumPort>4490</appiumPort>
+    </deviceId>
+</Device>

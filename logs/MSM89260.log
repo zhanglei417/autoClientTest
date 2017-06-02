@@ -1,0 +1,35 @@
+[Appium] Welcome to Appium v1.6.4
+[Appium] Non-default server args:
+[Appium]   port: 4490
+[Appium]   bootstrapPort: 2235
+[Appium]   udid: MSM8926
+[Appium] Deprecated server args:
+[Appium]   -U,--udid => --default-capabilities '{"udid":"MSM8926"}'
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   udid: 'MSM8926'
+[Appium] Appium REST http interface listener started on 0.0.0.0:4490
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/lei.zhang/downloads/moji.apk","appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","platformVersion":"4.3","browserName":"","platformName":"Android","deviceName":"MSM8926"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/lei.zhang/downloads/moji.apk","appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","platformVersion":"4.3","browserName":"","platformName":"Android","deviceName":"MSM8926"},null,null]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1496384018824 (14:13:38 GMT+0800 (CST))
+[Appium] Creating new AndroidDriver (v1.18.0) session
+[Appium] Capabilities:
+[Appium]   app: '/Users/lei.zhang/downloads/moji.apk'
+[Appium]   appPackage: 'com.moji.mjweather'
+[Appium]   appActivity: 'LauncherActivity'
+[Appium]   platformVersion: '4.3'
+[Appium]   browserName: ''
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'MSM8926'
+[Appium]   udid: 'MSM8926'
+[debug] [AndroidDriver] AndroidDriver version: 1.18.0
+[BaseDriver] Session created with session id: 9ce7ee05-47e0-4f92-b386-ae9aa36b0bad
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_131
+[ADB] Checking whether adb is present
+[ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+[debug] [AndroidDriver] Shutting down Android driver
+[debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+[HTTP] <-- POST /wd/hub/session 500 189 ms - 246 
+Error: write EPIPE
+    at exports._errnoException (util.js:1018:11)
+    at WriteWrap.afterWrite (net.js:800:14)

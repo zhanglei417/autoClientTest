@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.moji.appium.listener.ExtentTestNGIReporterListener"/>
+    <listener class-name="com.moji.appium.listener.mojiScreenShotListener"/>
+  </listeners>
+  <test name="MSM8926(failed)" parallel="tests">
+    <parameter name="port" value="4490"/>
+    <parameter name="udid" value="MSM8926"/>
+    <classes>
+      <class name="com.moji.appium.business.testmoji">
+        <methods>
+          <include name="setUp"/>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="testSettings"/>
+          <include name="aftertest"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.moji.appium.business.testmoji -->
+    </classes>
+  </test> <!-- MSM8926(failed) -->
+</suite> <!-- Failed suite [Suite] -->

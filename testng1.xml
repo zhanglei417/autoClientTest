@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" thread-count="1">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="MSM8926">
+        <parameter name="udid" value="MSM8926"/>
+        <parameter name="port" value="4490"/>
+        <classes>
+            <class name="com.mushishi.appium.datadriver.testdemo"/>
+        </classes>
+    </test>
+</suite>
