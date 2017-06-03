@@ -1,0 +1,12 @@
+Page模式：
+1.Page:存储page元素信息的页面
+2.Business:business就是业务操作的类，封装一些业务方法。
+3.Operation:operation就是单独操作元素的类，需要操作page元素。
+
+Case:
+1.所有case继承CaseBaseTest可以调用driverInit创建driver，存在testcases包中，baseTest类中还可以封装一些公共方法。比如reset等
+2.Testng执行case，beforeclass中初始化driver。afterclass driver.quit
+
+
+Main:
+main包下存放main
