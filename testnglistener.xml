@@ -10,7 +10,7 @@
         <parameter name="port" value="4490"/>
  
         <classes>
-            <class name="com.moji.appium.business.testmoji"/>
+            <class name="com.moji.appium.testcases.testmoji"/>
         </classes>
     </test>
 </suite> 

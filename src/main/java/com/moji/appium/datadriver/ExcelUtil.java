@@ -183,8 +183,8 @@ public class ExcelUtil {
 		public static void main(String[] args) {
 			setExcelFile("configs\\kyb.xlsx");
 			
-			//System.out.println(getCellData("知乎",1,1));
-			System.out.println(getTestCaseLastStepRow("用例","考研",1));
+			System.out.println(getCellData("case",1,0));
+//			System.out.println(getTestCaseLastStepRow("用例","考研",1));
 		}
 
 }

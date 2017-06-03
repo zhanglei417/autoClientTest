@@ -1,4 +1,4 @@
-package com.moji.appium.business;
+package com.moji.appium.testcases;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -7,14 +7,16 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.moji.appium.main.AppiumInit;
-import com.moji.appium.testcases.CaseBaseTest;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
-public class testmoji {
+public class testmoji extends CaseBaseTest {
 
-private static AndroidDriver driver;
+public testmoji() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 @BeforeSuite(alwaysRun=true)
 public void setUp() throws Exception {
@@ -22,8 +24,8 @@ public void setUp() throws Exception {
 
 @BeforeTest(alwaysRun=true)
 public void before() throws Exception {
-	AppiumInit.init();
-	driver = new CaseBaseTest().driverInit("MSM8926", "4723");
+//	AppiumInit.init();
+	driver = new CaseBaseTest().driverInit("127.0.0.1:52001", "4490");
 }
 
 @Test
@@ -64,8 +66,5 @@ public void aftertest() throws Exception {
 public void tearDown() throws Exception {
 }
 
-public static AppiumDriver getDriver(){
-    return driver;
-}    
 
 }

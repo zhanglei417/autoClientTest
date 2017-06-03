@@ -1,10 +1,16 @@
 package com.moji.appium.testcases;
 
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+
 import com.moji.appium.base.AndroidDriverBase;
 import com.moji.appium.base.CrazyPath;
 import com.moji.appium.util.ProUtil;
 
 public class CaseBaseTest {
+	
+	protected static AppiumDriver driver;
+	
 	public AndroidDriverBase driverInit(String udid, String port)
 			throws Exception {
 		String input = "com.moji.mjweather/.LauncherActivity";
@@ -21,6 +27,11 @@ public class CaseBaseTest {
 		return new AndroidDriverBase(server, port, capsPath, udid, input);
 		
 	}
+	
+	public static AppiumDriver getDriver(){
+		return driver;
+	}    
+
 	public static void main(String[] args) throws Exception {
 		new CaseBaseTest().driverInit("MSM8926", "4490");
 

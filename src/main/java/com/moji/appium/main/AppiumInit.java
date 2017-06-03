@@ -25,7 +25,7 @@ public class AppiumInit {
 				e.printStackTrace();
 			}
 //		classesList.add("com.mushishi.appium.business.LoginBusiness");
-			classesList.add("com.mushishi.appium.business.testmoji");
+			classesList.add("com.moji.appium.testcases.testmoji");
 			try {
 				System.out.println(classesList.get(0));
 				XmlUtil.createTestngXml(classesList);

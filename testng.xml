@@ -10,7 +10,7 @@
         <parameter name="udid" value="127.0.0.1:52001"/>
         <parameter name="port" value="4490"/>
         <classes>
-            <class name="com.mushishi.appium.business.testmoji1"/>
+            <class name="com.moji.appium.testcases.testmoji"/>
         </classes>
     </test>
 </suite>

@@ -4,7 +4,7 @@ import com.moji.appium.base.AndroidDriverBase;
 import com.moji.appium.page.LoginPage;
 
 import io.appium.java_client.TouchAction;
-
+// operation就是单独操作元素的类，需要操作page元素。
 public class LoginOperation {
 	public AndroidDriverBase driver;
 	TouchAction action = new TouchAction(driver);

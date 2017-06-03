@@ -4,7 +4,7 @@ import com.moji.appium.base.AndroidDriverBase;
 import com.moji.appium.util.GetByLocator;
 
 import io.appium.java_client.android.AndroidElement;
-
+//loginpage就是存储page元素信息的页面
 public class LoginPage extends BasePage{
 	
 	public LoginPage(AndroidDriverBase driver) {

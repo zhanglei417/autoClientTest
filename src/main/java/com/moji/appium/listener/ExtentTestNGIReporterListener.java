@@ -19,7 +19,7 @@ import java.util.*;
 public class ExtentTestNGIReporterListener implements IReporter {
     //生成的路径以及文件名
     private static final String OUTPUT_FOLDER = "test-output/";
-    private static final String FILE_NAME = "index.html";
+    private static final String FILE_NAME = "report.html";
 
     private ExtentReports extent;
 
@@ -109,8 +109,8 @@ public class ExtentTestNGIReporterListener implements IReporter {
             reportDir.mkdir();
         }
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME);
-        htmlReporter.config().setDocumentTitle("墨迹自动化测试报告");
-        htmlReporter.config().setReportName("墨迹自动化测试报告");
+        htmlReporter.config().setDocumentTitle("Moji Auto testing report");
+        htmlReporter.config().setReportName("Moji Auto testing report");
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         htmlReporter.config().setTheme(Theme.STANDARD);

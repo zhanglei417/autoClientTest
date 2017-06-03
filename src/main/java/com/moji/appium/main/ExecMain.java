@@ -9,13 +9,13 @@ import org.testng.TestNG;
 public class ExecMain {
 
 	private static final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
-//	private static String path = System.getProperty("user.dir");
+	private static String path = System.getProperty("user.dir");
 	public static void main(String args[]){
 		System.setProperty(ESCAPE_PROPERTY, "false");
 		AppiumInit.init();
 		System.out.println("~~~~~~~~~~~~~");
 		List<String> suites = new ArrayList<String>();
-		suites.add("/Users/phoenixzhang/Documents/test/appiumstudy/testng.xml");
+		suites.add("testng.xml");
 //		suites.add(System.getProperty("user.dir")+"/testng.xml");
 		TestNG tng = new TestNG();
 		tng.setTestSuites(suites);

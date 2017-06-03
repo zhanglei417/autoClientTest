@@ -5,20 +5,20 @@
     <listener class-name="com.moji.appium.listener.ExtentTestNGIReporterListener"/>
     <listener class-name="com.moji.appium.listener.mojiScreenShotListener"/>
   </listeners>
-  <test name="MSM8926(failed)" parallel="tests">
+  <test name="127.0.0.1:52001(failed)" parallel="tests">
     <parameter name="port" value="4490"/>
-    <parameter name="udid" value="MSM8926"/>
+    <parameter name="udid" value="127.0.0.1:52001"/>
     <classes>
-      <class name="com.moji.appium.business.testmoji">
+      <class name="com.moji.appium.testcases.testmoji">
         <methods>
-          <include name="setUp"/>
-          <include name="testLogin"/>
-          <include name="tearDown"/>
           <include name="testSettings"/>
-          <include name="aftertest"/>
           <include name="before"/>
+          <include name="aftertest"/>
+          <include name="testLogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.moji.appium.business.testmoji -->
+      </class> <!-- com.moji.appium.testcases.testmoji -->
     </classes>
-  </test> <!-- MSM8926(failed) -->
+  </test> <!-- 127.0.0.1:52001(failed) -->
 </suite> <!-- Failed suite [Suite] -->

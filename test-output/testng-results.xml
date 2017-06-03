@@ -2,49 +2,49 @@
 <testng-results skipped="0" failed="2" ignored="0" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37745" started-at="2017-06-02T08:09:33Z" finished-at="2017-06-02T08:10:10Z">
+  <suite name="Suite" duration-ms="36374" started-at="2017-06-03T15:04:17Z" finished-at="2017-06-03T15:04:54Z">
     <groups>
     </groups>
-    <test name="MSM8926" duration-ms="37745" started-at="2017-06-02T08:09:33Z" finished-at="2017-06-02T08:10:10Z">
-      <class name="com.moji.appium.business.testmoji">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="setUp" is-config="true" duration-ms="22" started-at="2017-06-02T16:09:33Z" finished-at="2017-06-02T16:09:33Z">
+    <test name="127.0.0.1:52001" duration-ms="36374" started-at="2017-06-03T15:04:17Z" finished-at="2017-06-03T15:04:54Z">
+      <class name="com.moji.appium.testcases.testmoji">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="setUp" is-config="true" duration-ms="12" started-at="2017-06-03T23:04:17Z" finished-at="2017-06-03T23:04:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="before" is-config="true" duration-ms="21050" started-at="2017-06-02T16:09:33Z" finished-at="2017-06-02T16:09:54Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="before" is-config="true" duration-ms="28964" started-at="2017-06-03T23:04:17Z" finished-at="2017-06-03T23:04:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="testAqi()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="testAqi" duration-ms="4" started-at="2017-06-02T16:09:54Z" finished-at="2017-06-02T16:09:54Z">
+        <test-method status="PASS" signature="testAqi()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="testAqi" duration-ms="0" started-at="2017-06-03T23:04:46Z" finished-at="2017-06-03T23:04:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAqi -->
-        <test-method status="PASS" signature="testLivePhoto()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="testLivePhoto" duration-ms="2" started-at="2017-06-02T16:09:54Z" finished-at="2017-06-02T16:09:54Z">
+        <test-method status="PASS" signature="testLivePhoto()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="testLivePhoto" duration-ms="0" started-at="2017-06-03T23:04:46Z" finished-at="2017-06-03T23:04:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLivePhoto -->
-        <test-method status="FAIL" signature="testLogin()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="testLogin" duration-ms="2893" started-at="2017-06-02T16:09:54Z" finished-at="2017-06-02T16:09:57Z">
+        <test-method status="FAIL" signature="testLogin()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="testLogin" duration-ms="1044" started-at="2017-06-03T23:04:46Z" finished-at="2017-06-03T23:04:47Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.69 seconds
+Command duration or timeout: 845 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'mojideMacBook-Pro-8.local', ip: '192.168.47.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+System info: host: 'DHJP-20150319HJ', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: com.moji.appium.base.AndroidDriverBase
-Capabilities [{appPackage=com.moji.mjweather, deviceScreenSize=720x1280, networkConnectionEnabled=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=MSM8926, platform=LINUX, deviceUDID=MSM8926, appActivity=LauncherActivity, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.3, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=N9180, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceManufacturer=ZTE, resetKeyboard=true}]
-Session ID: bcd7c6f5-285e-48fc-8885-0de689e34524
+Capabilities [{appPackage=com.moji.mjweather, deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=127.0.0.1:52001, platform=LINUX, deviceUDID=127.0.0.1:52001, appActivity=LauncherActivity, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, noReset=true, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=127.0.0.1:52001, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=MI 4LTE, unicodeKeyboard=true, udid=127.0.0.1:52001, platformName=Android, deviceManufacturer=Xiaomi, resetKeyboard=true}]
+Session ID: dae3f0d1-df12-4959-8c6a-f445b9d50cb4
 *** Element info: {Using=id, value=test}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.69 seconds
+Command duration or timeout: 845 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'mojideMacBook-Pro-8.local', ip: '192.168.47.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+System info: host: 'DHJP-20150319HJ', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: com.moji.appium.base.AndroidDriverBase
-Capabilities [{appPackage=com.moji.mjweather, deviceScreenSize=720x1280, networkConnectionEnabled=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=MSM8926, platform=LINUX, deviceUDID=MSM8926, appActivity=LauncherActivity, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.3, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=N9180, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceManufacturer=ZTE, resetKeyboard=true}]
-Session ID: bcd7c6f5-285e-48fc-8885-0de689e34524
+Capabilities [{appPackage=com.moji.mjweather, deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=127.0.0.1:52001, platform=LINUX, deviceUDID=127.0.0.1:52001, appActivity=LauncherActivity, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, noReset=true, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=127.0.0.1:52001, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=MI 4LTE, unicodeKeyboard=true, udid=127.0.0.1:52001, platformName=Android, deviceManufacturer=Xiaomi, resetKeyboard=true}]
+Session ID: dae3f0d1-df12-4959-8c6a-f445b9d50cb4
 *** Element info: {Using=id, value=test}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -63,7 +63,7 @@ Session ID: bcd7c6f5-285e-48fc-8885-0de689e34524
 	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
 	at com.moji.appium.base.AndroidDriverBase.findElementById(AndroidDriverBase.java:1)
-	at com.moji.appium.business.testmoji.testLogin(testmoji.java:32)
+	at com.moji.appium.testcases.testmoji.testLogin(testmoji.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,40 +90,40 @@ Session ID: bcd7c6f5-285e-48fc-8885-0de689e34524
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogout()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="testLogout" duration-ms="0" started-at="2017-06-02T16:10:02Z" finished-at="2017-06-02T16:10:02Z">
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="testLogout" duration-ms="0" started-at="2017-06-03T23:04:49Z" finished-at="2017-06-03T23:04:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method status="PASS" signature="testNews()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="testNews" duration-ms="4" started-at="2017-06-02T16:10:02Z" finished-at="2017-06-02T16:10:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNews -->
-        <test-method status="PASS" signature="testSearch()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="testSearch" duration-ms="1" started-at="2017-06-02T16:10:02Z" finished-at="2017-06-02T16:10:02Z">
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="testSearch" duration-ms="1" started-at="2017-06-03T23:04:49Z" finished-at="2017-06-03T23:04:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method status="FAIL" signature="testSettings()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="testSettings" duration-ms="128" started-at="2017-06-02T16:10:02Z" finished-at="2017-06-02T16:10:02Z">
+        <test-method status="PASS" signature="testNews()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="testNews" duration-ms="0" started-at="2017-06-03T23:04:49Z" finished-at="2017-06-03T23:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNews -->
+        <test-method status="FAIL" signature="testSettings()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="testSettings" duration-ms="76" started-at="2017-06-03T23:04:49Z" finished-at="2017-06-03T23:04:49Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 127 milliseconds
+Command duration or timeout: 75 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'mojideMacBook-Pro-8.local', ip: '192.168.47.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+System info: host: 'DHJP-20150319HJ', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: com.moji.appium.base.AndroidDriverBase
-Capabilities [{appPackage=com.moji.mjweather, deviceScreenSize=720x1280, networkConnectionEnabled=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=MSM8926, platform=LINUX, deviceUDID=MSM8926, appActivity=LauncherActivity, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.3, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=N9180, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceManufacturer=ZTE, resetKeyboard=true}]
-Session ID: bcd7c6f5-285e-48fc-8885-0de689e34524
+Capabilities [{appPackage=com.moji.mjweather, deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=127.0.0.1:52001, platform=LINUX, deviceUDID=127.0.0.1:52001, appActivity=LauncherActivity, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, noReset=true, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=127.0.0.1:52001, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=MI 4LTE, unicodeKeyboard=true, udid=127.0.0.1:52001, platformName=Android, deviceManufacturer=Xiaomi, resetKeyboard=true}]
+Session ID: dae3f0d1-df12-4959-8c6a-f445b9d50cb4
 *** Element info: {Using=id, value=Settings}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 127 milliseconds
+Command duration or timeout: 75 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'mojideMacBook-Pro-8.local', ip: '192.168.47.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+System info: host: 'DHJP-20150319HJ', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: com.moji.appium.base.AndroidDriverBase
-Capabilities [{appPackage=com.moji.mjweather, deviceScreenSize=720x1280, networkConnectionEnabled=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=MSM8926, platform=LINUX, deviceUDID=MSM8926, appActivity=LauncherActivity, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.3, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=N9180, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceManufacturer=ZTE, resetKeyboard=true}]
-Session ID: bcd7c6f5-285e-48fc-8885-0de689e34524
+Capabilities [{appPackage=com.moji.mjweather, deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=127.0.0.1:52001, platform=LINUX, deviceUDID=127.0.0.1:52001, appActivity=LauncherActivity, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, noReset=true, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=127.0.0.1:52001, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=MI 4LTE, unicodeKeyboard=true, udid=127.0.0.1:52001, platformName=Android, deviceManufacturer=Xiaomi, resetKeyboard=true}]
+Session ID: dae3f0d1-df12-4959-8c6a-f445b9d50cb4
 *** Element info: {Using=id, value=Settings}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -142,7 +142,7 @@ Session ID: bcd7c6f5-285e-48fc-8885-0de689e34524
 	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
 	at com.moji.appium.base.AndroidDriverBase.findElementById(AndroidDriverBase.java:1)
-	at com.moji.appium.business.testmoji.testSettings(testmoji.java:42)
+	at com.moji.appium.testcases.testmoji.testSettings(testmoji.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -169,19 +169,19 @@ Session ID: bcd7c6f5-285e-48fc-8885-0de689e34524
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSettings -->
-        <test-method status="PASS" signature="testSplash()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="testSplash" duration-ms="3" started-at="2017-06-02T16:10:07Z" finished-at="2017-06-02T16:10:07Z">
+        <test-method status="PASS" signature="testSplash()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="testSplash" duration-ms="1" started-at="2017-06-03T23:04:50Z" finished-at="2017-06-03T23:04:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSplash -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="aftertest" is-config="true" duration-ms="3316" started-at="2017-06-02T16:10:07Z" finished-at="2017-06-02T16:10:10Z">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="aftertest" is-config="true" duration-ms="3229" started-at="2017-06-03T23:04:50Z" finished-at="2017-06-03T23:04:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.moji.appium.business.testmoji@520a3426]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-02T16:10:10Z" finished-at="2017-06-02T16:10:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.moji.appium.testcases.testmoji@5e5792a0]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-06-03T23:04:54Z" finished-at="2017-06-03T23:04:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.moji.appium.business.testmoji -->
-    </test> <!-- MSM8926 -->
+      </class> <!-- com.moji.appium.testcases.testmoji -->
+    </test> <!-- 127.0.0.1:52001 -->
   </suite> <!-- Suite -->
 </testng-results>

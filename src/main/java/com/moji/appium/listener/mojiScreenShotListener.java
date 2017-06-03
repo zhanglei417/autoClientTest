@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
-import com.moji.appium.business.testmoji;
+import com.moji.appium.testcases.testmoji;
 
 import io.appium.java_client.AppiumDriver;
 
@@ -46,7 +46,7 @@ import io.appium.java_client.AppiumDriver;
 
 		public static String getCurrentTime(){
 	        Date date=new Date();
-	        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
+	        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	        String currentTime=sdf.format(date);
 	        return currentTime; 
 	    }
