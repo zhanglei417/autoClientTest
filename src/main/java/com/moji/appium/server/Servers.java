@@ -26,7 +26,7 @@ public class Servers {
 	 * */
 	public List<String> getDevices() throws Exception{
 		logger.debug("当前运行的是"+this.getClass()+"类的----》》》"+this.getClass().getName()+"方法");
-		List<String> devList = dos.execCmdConsonle("/Users/lei.zhang/Library/Android/sdk/platform-tools/adb devices");
+		List<String> devList = dos.execCmdConsonle("adb devices");
 		List<String> deviceRes = new ArrayList<String>();
 		if(devList.size()>2){
 			for(int i=1;i < devList.size()-1;i++){
@@ -68,9 +68,9 @@ public class Servers {
 		bootstrapPortList = getPortList(2233);
 		deviceList = getDevices();
 		List<String> commandList = new ArrayList<String>();
-		
+//		获取device list size遍历后生成server启动命令，需要获取portlist和bootstrap portlist，bootstrap和port传不同的值可以进行并发测试
 		for(int i =0;i<deviceList.size();i++){
-			String command = "/usr/local/bin/node /usr/local/lib/node_modules/appium/build/lib/main.js -p"+appiumPortList.get(i)+" -bp "+bootstrapPortList.get(i)
+			String command = "appium -p"+appiumPortList.get(i)+" -bp "+bootstrapPortList.get(i)
 			+" -U "+ deviceList.get(i)+">"+path+"/logs/"+deviceList.get(i).split(":")[0]+i+".log";
 			commandList.add(command);
 //			String command = "/usr/local/bin/appium -p "+appiumPortList.get(i)+" -bp "+bootstrapPortList.get(i)
@@ -78,6 +78,7 @@ public class Servers {
 //			commandList.add(command);
 			System.out.println(command);
 		}
+//		创建device xml用于创建testng xml时读取
 		XmlUtil.createDeviceXml(deviceList, appiumPortList);
 		//配置testng.xml
 		return commandList;

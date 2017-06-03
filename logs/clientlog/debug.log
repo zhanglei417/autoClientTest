@@ -1338,3 +1338,261 @@
 [MojiTest] 2017/06/02 16:10:11  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
 [MojiTest] 2017/06/02 16:10:11  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
 [MojiTest] 2017/06/02 16:10:11  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/lei.zhang/.m2/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/03 11:04:20  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/03 11:04:20  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/03 11:04:20  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:04:20  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： /Users/lei.zhang/Library/Android/sdk/platform-tools/adb devices
+ 
+[MojiTest] 2017/06/03 11:04:20  ERROR main com.moji.appium.util.DosCmd:46 - main获取device设备失败,没有设备可以获取 
+[MojiTest] 2017/06/03 11:04:20  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:04:20  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： /Users/lei.zhang/Library/Android/sdk/platform-tools/adb devices
+ 
+[MojiTest] 2017/06/03 11:04:20  ERROR main com.moji.appium.util.DosCmd:46 - main获取device设备失败,没有设备可以获取 
+[MojiTest] 2017/06/03 11:04:20  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:04:20  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： /Users/lei.zhang/Library/Android/sdk/platform-tools/adb devices
+ 
+[MojiTest] 2017/06/03 11:04:20  ERROR main com.moji.appium.util.DosCmd:46 - main获取device设备失败,没有设备可以获取 
+[MojiTest] 2017/06/03 11:04:20  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:04:21  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： /Users/lei.zhang/Library/Android/sdk/platform-tools/adb devices
+ 
+[MojiTest] 2017/06/03 11:04:21  ERROR main com.moji.appium.server.Servers:46 - main获取device设备失败,没有设备可以获取 
+[MojiTest] 2017/06/03 11:06:8  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/03 11:06:8  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/03 11:06:8  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:06:8  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:06:9  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:06:9  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:06:9  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:06:9  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:06:10  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/03 11:06:10  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/06/03 11:06:11  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/06/03 11:06:11  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2234 
+[MojiTest] 2017/06/03 11:06:11  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:06:11  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:06:12  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:06:12  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:06:14  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:06:14  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:06:16  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:06:16  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:06:18  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:06:18  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:06:20  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:06:20  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4490 
+[MojiTest] 2017/06/03 11:06:20  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4490 -bp 2234 -U 127.0.0.1:52001>C:\Users\Administrator\git\autoClientTest/logs/127.0.0.10.log执行成功 
+[MojiTest] 2017/06/03 11:06:20  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:06:20  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:06:46  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/03 11:06:47  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/03 11:06:47  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:06:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:06:48  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:06:48  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了4490 
+[MojiTest] 2017/06/03 11:06:49  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:06:49  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4491 
+[MojiTest] 2017/06/03 11:06:49  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:06:49  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:06:50  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/03 11:06:50  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/06/03 11:06:51  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/06/03 11:06:51  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2234 
+[MojiTest] 2017/06/03 11:06:51  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:06:51  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:06:52  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:06:52  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/06/03 11:06:54  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:06:54  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/06/03 11:06:56  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:06:56  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/06/03 11:06:58  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:06:58  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/06/03 11:06:59  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:06:59  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4491 
+[MojiTest] 2017/06/03 11:06:59  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4491 -bp 2234 -U 127.0.0.1:52001>C:\Users\Administrator\git\autoClientTest/logs/127.0.0.10.log执行成功 
+[MojiTest] 2017/06/03 11:06:59  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:07:0  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:07:25  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/03 11:07:25  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/03 11:07:25  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:07:25  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:07:26  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:07:26  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:07:26  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:07:26  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:07:27  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/03 11:07:27  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/06/03 11:07:28  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/06/03 11:07:28  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2234 
+[MojiTest] 2017/06/03 11:07:28  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:07:28  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:07:29  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:07:29  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:07:31  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:07:31  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:07:33  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:07:33  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:07:35  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:07:35  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:07:37  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:07:37  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4490 
+[MojiTest] 2017/06/03 11:07:37  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4490 -bp 2234 -U 127.0.0.1:52001>C:\Users\Administrator\git\autoClientTest/logs/127.0.0.10.log执行成功 
+[MojiTest] 2017/06/03 11:07:37  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:07:37  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:21:46  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/03 11:21:46  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/03 11:21:46  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:21:46  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:21:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:21:47  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:21:47  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:21:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:21:48  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/03 11:21:48  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/06/03 11:21:49  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/06/03 11:21:49  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2234 
+[MojiTest] 2017/06/03 11:21:49  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:21:49  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:21:50  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:21:50  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:21:52  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:21:52  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:21:54  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:21:54  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:21:56  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:21:56  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:21:58  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:21:58  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4490 
+[MojiTest] 2017/06/03 11:21:58  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4490 -bp 2234 -U 127.0.0.1:52001>C:\Users\Administrator\git\autoClientTest/logs/127.0.0.10.log执行成功 
+[MojiTest] 2017/06/03 11:21:58  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:21:58  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:22:29  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/03 11:22:29  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/03 11:22:29  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:22:29  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:22:30  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:22:30  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了4490 
+[MojiTest] 2017/06/03 11:22:31  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:22:31  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4491 
+[MojiTest] 2017/06/03 11:22:31  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:22:31  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:22:32  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/03 11:22:32  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/06/03 11:22:33  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/06/03 11:22:33  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2234 
+[MojiTest] 2017/06/03 11:22:33  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:22:33  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:22:34  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:22:34  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/06/03 11:22:36  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:22:36  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/06/03 11:22:38  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:22:38  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/06/03 11:22:40  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:22:40  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/06/03 11:22:42  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/03 11:22:42  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4491 
+[MojiTest] 2017/06/03 11:22:42  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4491 -bp 2234 -U 127.0.0.1:52001>C:\Users\Administrator\git\autoClientTest/logs/127.0.0.10.log执行成功 
+[MojiTest] 2017/06/03 11:22:42  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:22:42  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:23:21  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/03 11:23:21  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/03 11:23:21  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:23:21  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:23:22  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:23:22  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:23:22  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:23:22  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:23:23  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/03 11:23:23  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/06/03 11:23:24  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/06/03 11:23:24  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2234 
+[MojiTest] 2017/06/03 11:23:24  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:23:24  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/03 11:23:25  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:23:25  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:23:27  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:23:27  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:23:29  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:23:29  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:23:31  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:23:31  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/03 11:23:33  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/03 11:23:33  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4490 
+[MojiTest] 2017/06/03 11:23:33  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4490 -bp 2234 -U 127.0.0.1:52001>C:\Users\Administrator\git\autoClientTest/logs/127.0.0.10.log执行成功 
+[MojiTest] 2017/06/03 11:23:33  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/03 11:23:33  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 

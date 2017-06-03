@@ -89,6 +89,7 @@ public class XmlUtil {
 		List<String> deviceList=servers.getDevices();
 		System.out.println("设备数量"+deviceList.size());
 		Document document = DocumentHelper.createDocument();
+		document.addDocType("suite", null, "http://testng.org/testng-1.0.dtd");
 		Element root = DocumentHelper.createElement("suite");
 		document.setRootElement(root);
 		root.addAttribute("name", "Suite");
@@ -96,9 +97,9 @@ public class XmlUtil {
 		root.addAttribute("thread-count", String.valueOf(deviceList.size()));
 		Element listeners=root.addElement("listeners");
 		Element listener1=listeners.addElement("listener");
-		listener1.addAttribute("class-name", "org.uncommons.reportng.HTMLReporter");
+		listener1.addAttribute("class-name", "com.moji.appium.listener.ExtentTestNGIReporterListener");
 		Element listener2=listeners.addElement("listener");
-		listener2.addAttribute("class-name", "org.uncommons.reportng.JUnitXMLReporter");
+		listener2.addAttribute("class-name", "com.moji.appium.listener.mojiScreenShotListener");
 		List<String> s=readXML("configs/device.xml");
 		//{192.168.56.101:5555,4490,192.168.56.102:5555,4491,xxx,4492,yyy,4493}
 		for(int j=0;j<deviceList.size();j++){
@@ -138,6 +139,8 @@ public class XmlUtil {
 		List<String> deviceList=servers.getDevices();
 		System.out.println("设备数量"+deviceList.size());
 		Document document = DocumentHelper.createDocument();
+//		增加注释，按testng要求
+		document.addDocType("suite", null, "http://testng.org/testng-1.0.dtd");
 		Element root = DocumentHelper.createElement("suite");
 		document.setRootElement(root);
 		root.addAttribute("name", "Suite");
@@ -145,9 +148,9 @@ public class XmlUtil {
 		root.addAttribute("thread-count", String.valueOf(deviceList.size()));
 		Element listeners=root.addElement("listeners");
 		Element listener1=listeners.addElement("listener");
-		listener1.addAttribute("class-name", "org.uncommons.reportng.HTMLReporter");
+		listener1.addAttribute("class-name", "com.moji.appium.listener.ExtentTestNGIReporterListener");
 		Element listener2=listeners.addElement("listener");
-		listener2.addAttribute("class-name", "org.uncommons.reportng.JUnitXMLReporter");
+		listener2.addAttribute("class-name", "com.moji.appium.listener.mojiScreenShotListener");
 		List<String> s=readXML("configs/device.xml");
 		//{192.168.56.101:5555,4490,192.168.56.102:5555,4491,xxx,4492,yyy,4493}
 		for(int j=0;j<deviceList.size();j++){

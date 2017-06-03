@@ -2,7 +2,7 @@
 
 <Device name="appiumstartList">
     <deviceId id="0">
-        <deviceName>MSM8926</deviceName>
+        <deviceName>127.0.0.1:52001</deviceName>
         <appiumPort>4490</appiumPort>
     </deviceId>
 </Device>
