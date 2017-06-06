@@ -27,7 +27,7 @@ import io.appium.java_client.AppiumDriver;
 		public void onTestFailure(ITestResult tr){
 	        super.onTestFailure(tr);
 	        AppiumDriver<?> driver = testmoji.getDriver();
-	        File location = new File("FailScreenshot");
+	        File location = new File("G:\\FailScreenshot");
 	        String time = getCurrentTime();
 	        String screenShotName = location.getAbsolutePath()+File.separator+tr.getMethod().getMethodName()+"_" + getCurrentTime() +".png";
 	        File screenShot = driver.getScreenshotAs(OutputType.FILE);
@@ -46,7 +46,7 @@ import io.appium.java_client.AppiumDriver;
 
 		public static String getCurrentTime(){
 	        Date date=new Date();
-	        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd_HH_mm_ss");
 	        String currentTime=sdf.format(date);
 	        return currentTime; 
 	    }

@@ -26,7 +26,7 @@ public class DosCmd {
 				process = Runtime.getRuntime().exec(command);
 //				process = Runtime.getRuntime().exec("/Users/phoenixzhang/Library/Android/sdk/platform-tools/adb devices");
 			}else if(osName.toLowerCase().contains("win")){
-				process = Runtime.getRuntime().exec("cmd /c "+cmdString);
+				process = Runtime.getRuntime().exec("cmd /c"+cmdString);
 			}
 			InputStream in = process.getInputStream();
 			BufferedReader inr = new BufferedReader(new InputStreamReader(in));
@@ -48,20 +48,21 @@ public class DosCmd {
 	 * execCmd
 	 * */
 	public boolean execCmd(String cmdString){
+		System.out.println("~~~~~~~~~~~~~~" + osName);
 		Runtime p = Runtime.getRuntime();
 		try{
 			if(osName.toLowerCase().contains("mac")){
 				String[] command={"/bin/sh","-c",cmdString};
-				Process process=p.exec(command);
+				p.exec(command);
 			}else if(osName.toLowerCase().contains("win")){
-				Process process=p.exec("cmd /c "+cmdString);
+				p.exec("cmd /C"+ cmdString);
 			}
 			long portNum = Long.parseLong((RandomUtil.getInt(cmdString, 0)));
 			System.out.print(portNum+"\n");
 			if(portNum>0){
 				Port port = new Port(new DosCmd());
 				while(!port.isPortUsed(portNum)){
-					Thread.sleep(1000);
+					Thread.sleep(3000);
 				}
 			}
 			logger.debug("命令"+cmdString+"执行成功");
@@ -95,13 +96,10 @@ public class DosCmd {
 	}
 	
 	
-	/***
-	public static void main(String args[]) throws InterruptedException{
+
+	public static void main(String args[]) throws InterruptedException, IOException{
 		DosCmd dos = new DosCmd();
-		List<String> deviceList = dos.execCmdConsonle("adb devices");
-		for(String s:deviceList){
-			System.out.println(s);
-		}
-	}*/
+		new DosCmd().execCmd("appium -p4490 -bp 2233 -U MSM8926");
+	}
 
 }

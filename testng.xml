@@ -6,11 +6,12 @@
         <listener class-name="com.moji.appium.listener.ExtentTestNGIReporterListener"/>
         <listener class-name="com.moji.appium.listener.mojiScreenShotListener"/>
     </listeners>
-    <test name="127.0.0.1:52001">
-        <parameter name="udid" value="127.0.0.1:52001"/>
+    <test name="MSM8926">
+        <parameter name="udid" value="MSM8926"/>
         <parameter name="port" value="4490"/>
         <classes>
             <class name="com.moji.appium.testcases.testmoji"/>
+            <class name="com.moji.appium.testcases.testmoji2"/>
         </classes>
     </test>
 </suite>

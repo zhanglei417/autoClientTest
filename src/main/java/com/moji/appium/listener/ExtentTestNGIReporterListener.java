@@ -17,9 +17,12 @@ import java.util.*;
  * Created by zhanglei on 17/4/14.
  */
 public class ExtentTestNGIReporterListener implements IReporter {
+	static String time = mojiScreenShotListener.getCurrentTime();
+    static String filename = "report"+"_" + time +".html";
     //生成的路径以及文件名
-    private static final String OUTPUT_FOLDER = "test-output/";
-    private static final String FILE_NAME = "report.html";
+    private static final String OUTPUT_FOLDER = "G:\\testReport\\";
+    private static final String FILE_NAME = filename;
+//    		"report.html";
 
     private ExtentReports extent;
 

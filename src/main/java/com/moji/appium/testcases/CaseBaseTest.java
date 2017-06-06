@@ -10,7 +10,7 @@ import com.moji.appium.util.ProUtil;
 public class CaseBaseTest {
 	
 	protected static AppiumDriver driver;
-	
+
 	public AndroidDriverBase driverInit(String udid, String port)
 			throws Exception {
 		String input = "com.moji.mjweather/.LauncherActivity";

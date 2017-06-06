@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite" parallel="tests" thread-count="1">
     <listeners>
-        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.moji.appium.listener.ExtentTestNGIReporterListener"/>
+        <listener class-name="com.moji.appium.listener.mojiScreenShotListener"/>
     </listeners>
     <test name="MSM8926">
         <parameter name="udid" value="MSM8926"/>
         <parameter name="port" value="4490"/>
         <classes>
-            <class name="com.mushishi.appium.datadriver.testdemo"/>
+            <class name="com.moji.appium.testcases.testmoji"/>
+            <class name="com.moji.appium.testcases.testmoji2"/>
         </classes>
     </test>
 </suite>

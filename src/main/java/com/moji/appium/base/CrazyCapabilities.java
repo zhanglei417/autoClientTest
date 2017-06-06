@@ -27,7 +27,7 @@ public class CrazyCapabilities {
 		caps.setCapability(AndroidMobileCapabilityType.UNICODE_KEYBOARD, p.getPro(AndroidMobileCapabilityType.UNICODE_KEYBOARD));
 		caps.setCapability(AndroidMobileCapabilityType.RESET_KEYBOARD, p.getPro(AndroidMobileCapabilityType.RESET_KEYBOARD));
 		caps.setCapability(AndroidCapabilityType.UDID, udid);
-//		caps.setCapability(AndroidCapabilityType.APP, apkPath);
+		caps.setCapability(AndroidCapabilityType.APP, apkPath);
 		caps.setCapability(AndroidCapabilityType.NO_RESET,true);
 		//caps.setCapability(AndroidCapabilityType.UDID, p.getPro(AndroidCapabilityType.UDID));
 		caps.setCapability(AndroidCapabilityType.NEW_COMMAND_TIMEOUT, p.getPro(AndroidCapabilityType.NEW_COMMAND_TIMEOUT));

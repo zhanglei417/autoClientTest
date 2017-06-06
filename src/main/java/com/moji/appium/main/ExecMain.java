@@ -10,7 +10,7 @@ public class ExecMain {
 
 	private static final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
 	private static String path = System.getProperty("user.dir");
-	public static void main(String args[]){
+	public static void main(String args[]) throws Exception{
 		System.setProperty(ESCAPE_PROPERTY, "false");
 		AppiumInit.init();
 		System.out.println("~~~~~~~~~~~~~");
