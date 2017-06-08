@@ -1,7 +1,7 @@
 [Appium] Welcome to Appium v1.6.5
 [Appium] Non-default server args:
 [Appium]   port: 4490
-[Appium]   bootstrapPort: 2233
+[Appium]   bootstrapPort: 2238
 [Appium]   udid: MSM8926
 [Appium] Deprecated server args:
 [Appium]   -U,--udid => --default-capabilities '{"udid":"MSM8926"}'
@@ -10,7 +10,7 @@
 [Appium] Appium REST http interface listener started on 0.0.0.0:4490
 [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"}}
 [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"},null,null]
-[debug] [BaseDriver] Event 'newSessionRequested' logged at 1496747144491 (19:05:44 GMT+0800 (中国标准时间))
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1496809000100 (12:16:40 GMT+0800 (中国标准时间))
 [Appium] Creating new AndroidDriver (v1.20.0) session
 [Appium] Capabilities:
 [Appium]   appPackage: 'com.moji.mjweather'
@@ -29,7 +29,7 @@
 [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
 [BaseDriver] Capability 'noSign' changed from string to boolean. This may cause unexpected behavior
 [BaseDriver] Capability 'newCommandTimeout' changed from string ('600') to integer (600). This may cause unexpected behavior
-[BaseDriver] Session created with session id: ea7dfe6d-4421-4ad2-a104-9fd9b2974d56
+[BaseDriver] Session created with session id: 5634fd3b-2bf0-42b0-b26d-9d480fc5be52
 [debug] [AndroidDriver] Getting Java version
 [AndroidDriver] Java version is: 1.8.0_131
 [ADB] Checking whether adb is present
@@ -128,8 +128,8 @@
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","echo"]
 [debug] [AndroidBootstrap] Watching for bootstrap disconnect
-[debug] [ADB] Forwarding system: 2233 to device: 4724
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","forward","tcp:2233","tcp:4724"]
+[debug] [ADB] Forwarding system: 2238 to device: 4724
+[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","forward","tcp:2238","tcp:4724"]
 [debug] [UiAutomator] Starting UiAutomator
 [debug] [UiAutomator] Moving to state 'starting'
 [debug] [UiAutomator] Parsing uiautomator jar
@@ -160,12 +160,12 @@
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","start","-W","-n","com.moji.mjweather/.LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
-[Appium] New AndroidDriver session created successfully, session ea7dfe6d-4421-4ad2-a104-9fd9b2974d56 added to master session list
-[debug] [BaseDriver] Event 'newSessionStarted' logged at 1496747162961 (19:06:02 GMT+0800 (中国标准时间))
+[Appium] New AndroidDriver session created successfully, session 5634fd3b-2bf0-42b0-b26d-9d480fc5be52 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1496809018260 (12:16:58 GMT+0800 (中国标准时间))
 [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true},"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true,"deviceUDID":"MSM8926","platformVersion":"4.3","deviceScreenSize":"720x1280","deviceModel":"N9180","deviceManufacturer":"ZTE"}
-[HTTP] <-- POST /wd/hub/session 200 18476 ms - 917 
-[HTTP] --> POST /wd/hub/session/ea7dfe6d-4421-4ad2-a104-9fd9b2974d56/touch/perform {"actions":[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}]}
-[debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}],"ea7dfe6d-4421-4ad2-a104-9fd9b2974d56"]
+[HTTP] <-- POST /wd/hub/session 200 18165 ms - 917 
+[HTTP] --> POST /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/touch/perform {"actions":[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}]}
+[debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}],"5634fd3b-2bf0-42b0-b26d-9d480fc5be52"]
 [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":15,"startY":15,"endX":15,"endY":15,"steps":6}}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":15,"startY":15,"endX":15,"endY":15,"steps":6}}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
@@ -176,9 +176,9 @@
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
 [debug] [AndroidBootstrap] Received command result from bootstrap
 [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
-[HTTP] <-- POST /wd/hub/session/ea7dfe6d-4421-4ad2-a104-9fd9b2974d56/touch/perform 200 198 ms - 76 
-[HTTP] --> POST /wd/hub/session/ea7dfe6d-4421-4ad2-a104-9fd9b2974d56/element {"using":"id","value":"Settings"}
-[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","Settings","ea7dfe6d-4421-4ad2-a104-9fd9b2974d56"]
+[HTTP] <-- POST /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/touch/perform 200 185 ms - 76 
+[HTTP] --> POST /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/element {"using":"id","value":"Settings"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","Settings","5634fd3b-2bf0-42b0-b26d-9d480fc5be52"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
@@ -199,22 +199,22 @@
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=Settings, INSTANCE=0]
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"No element found","status":7}
 [debug] [AndroidBootstrap] Received command result from bootstrap
-[HTTP] <-- POST /wd/hub/session/ea7dfe6d-4421-4ad2-a104-9fd9b2974d56/element 500 3993 ms - 164 
-[HTTP] --> GET /wd/hub/session/ea7dfe6d-4421-4ad2-a104-9fd9b2974d56/screenshot {}
-[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["ea7dfe6d-4421-4ad2-a104-9fd9b2974d56"]
+[HTTP] <-- POST /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/element 500 4100 ms - 164 
+[HTTP] --> GET /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/screenshot {}
+[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["5634fd3b-2bf0-42b0-b26d-9d480fc5be52"]
 [debug] [ADB] Device API level: 18
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","/system/bin/rm","/data/local/tmp/screenshot.png;","/system/bin/screencap","-p","/data/local/tmp/screenshot.png"]
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","pull","/data/local/tmp/screenshot.png","C:\\Users\\px\\AppData\\Local\\Temp\\appium11756-28268-fcnfzu.79lie.png"]
+[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","pull","/data/local/tmp/screenshot.png","C:\\Users\\px\\AppData\\Local\\Temp\\appium11757-111808-hggogc.bmoot.png"]
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","input"]
 [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezB/+//60Hf9fvj/Xxdj3PRQi21BYoMmGww5mADMr6W8Z0pzDGFkc2F0ICyqHHJ4h8ydT9sS+bI0ARipiZGnTDke0NDooBjENAoE8NgBeSLDPu4ntf74a/t6ZdVOJ/TQ3LdbgLKcRzHcRzHcRwfkieO4ziO4ziO4/iQPXEcx3Ecx3Ecx4fsieM4juM4juM4PmRPHMdxHMdxHMfxIXviOI7jOI7jOI4P2YNXyC/83+XlvvILP4Of/Zmf4pU0bN7xEz/PW9/6Vl7u733n3+Wv/ntv5ziO4ziO4zhelCd+n/mz/+Zf4K1vfSsv9+53v5u//Tf/OsdxHMdxHMfxIj3x+8jrXvd6/q1v+lbenx/5gf+Rn/mpH+c4juM4juM4XqQnfh/5nM/7Ij7lUz+dl8u7381/+jf/I56fnzmO4ziO4ziOF+nBK2Q/80LZL/ElX/6v8oY3/ovsZ97LT/7E/8zP/sxPcRzHcRzHcRwv2hO/T7zxTW/ibV/yFTw9PfGe7vvm+7/37/Orv/JPOY7jOI7jOI4X7cErZD/zPlpeMX/ic76AP/zpn8l+5r386q/+Kj/0/d/N3pvjOI7jOI7jeNGe+H3guh58y1/+K7w/P/MPf5yf+amf5DiO4ziO4zheDU/8PvD5b/tSPvtz38b787f/xl8j7343x3Ecx3Ecx/FqeOI17rou3v5tf4Xruni5n/mpn+AdP/gPOI7jOI7jOI5XyxOvcZ/2Rz+TP/oZn83L7ednvv1v/ce05TiO4ziO4zheLU+8hj09PfEFX/xVvPktH8vL/R//28/xznf8AMdxHMdxHMfxanriNewNb/xo/tSXfSWPx4P31JYf/eHv412//E84juM4juM4jlfTg1fIfuZ9lN+bT/v0z+CPf87ns595L7/xG7/OD33fd5O8m+M4juM4juN4NT3xGvaN3/RtfMTrPpKX+4Vf+Hne+Y7v4ziO4ziO...
-[HTTP] <-- GET /wd/hub/session/ea7dfe6d-4421-4ad2-a104-9fd9b2974d56/screenshot 200 2275 ms - 1340070 
-[HTTP] --> DELETE /wd/hub/session/ea7dfe6d-4421-4ad2-a104-9fd9b2974d56 {}
-[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["ea7dfe6d-4421-4ad2-a104-9fd9b2974d56"]
-[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1496747169661 (19:06:09 GMT+0800 (中国标准时间))
+[HTTP] <-- GET /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/screenshot 200 2357 ms - 1340070 
+[HTTP] --> DELETE /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52 {}
+[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["5634fd3b-2bf0-42b0-b26d-9d480fc5be52"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1496809025087 (12:17:05 GMT+0800 (中国标准时间))
 [debug] [AndroidDriver] Shutting down Android driver
 [debug] [AndroidDriver] Resetting IME to io.appium.android.ime/.UnicodeIME
 [debug] [ADB] Getting connected devices...
@@ -231,22 +231,9 @@
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"OK, shutting down","status":0}
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
 [debug] [AndroidBootstrap] Received command result from bootstrap
 [debug] [UiAutomator] Shutting down UiAutomator
 [debug] [UiAutomator] Moving to state 'stopping'
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 14.763
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
 [debug] [UiAutomator] UiAutomator shut down normally
 [debug] [UiAutomator] Moving to state 'stopped'
 [debug] [ADB] Attempting to kill all uiautomator processes
@@ -261,15 +248,15 @@
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","force-stop","io.appium.unlock"]
 [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
-[Appium] Removing session ea7dfe6d-4421-4ad2-a104-9fd9b2974d56 from our master session list
-[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1496747173630 (19:06:13 GMT+0800 (中国标准时间))
+[Appium] Removing session 5634fd3b-2bf0-42b0-b26d-9d480fc5be52 from our master session list
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1496809029003 (12:17:09 GMT+0800 (中国标准时间))
 [debug] [MJSONWP] Received response: null
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
-[HTTP] <-- DELETE /wd/hub/session/ea7dfe6d-4421-4ad2-a104-9fd9b2974d56 200 3969 ms - 76 
+[HTTP] <-- DELETE /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52 200 3916 ms - 76 
 [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"}}
 [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"},null,null]
-[debug] [BaseDriver] Event 'newSessionRequested' logged at 1496747174561 (19:06:14 GMT+0800 (中国标准时间))
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1496809029962 (12:17:09 GMT+0800 (中国标准时间))
 [Appium] Creating new AndroidDriver (v1.20.0) session
 [Appium] Capabilities:
 [Appium]   appPackage: 'com.moji.mjweather'
@@ -288,7 +275,7 @@
 [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
 [BaseDriver] Capability 'noSign' changed from string to boolean. This may cause unexpected behavior
 [BaseDriver] Capability 'newCommandTimeout' changed from string ('600') to integer (600). This may cause unexpected behavior
-[BaseDriver] Session created with session id: 7f7c674c-519d-434c-a7c7-ee5359a50d27
+[BaseDriver] Session created with session id: b092bfe4-f6d2-41cd-acdb-78afcd4bf985
 [debug] [AndroidDriver] Getting Java version
 [AndroidDriver] Java version is: 1.8.0_131
 [ADB] Checking whether adb is present
@@ -387,8 +374,8 @@
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","echo"]
 [debug] [AndroidBootstrap] Watching for bootstrap disconnect
-[debug] [ADB] Forwarding system: 2233 to device: 4724
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","forward","tcp:2233","tcp:4724"]
+[debug] [ADB] Forwarding system: 2238 to device: 4724
+[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","forward","tcp:2238","tcp:4724"]
 [debug] [UiAutomator] Starting UiAutomator
 [debug] [UiAutomator] Moving to state 'starting'
 [debug] [UiAutomator] Parsing uiautomator jar
@@ -403,9 +390,9 @@
 [debug] [UiAutomator] Starting UIAutomator
 [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","MSM8926","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.moji.mjweather","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
 [debug] [UiAutomator] Moving to state 'online'
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
 [AndroidBootstrap] Android bootstrap socket is now connected
 [debug] [ADB] Getting connected devices...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","window"]
@@ -419,12 +406,12 @@
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","start","-W","-n","com.moji.mjweather/.LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
-[Appium] New AndroidDriver session created successfully, session 7f7c674c-519d-434c-a7c7-ee5359a50d27 added to master session list
-[debug] [BaseDriver] Event 'newSessionStarted' logged at 1496747192341 (19:06:32 GMT+0800 (中国标准时间))
+[Appium] New AndroidDriver session created successfully, session b092bfe4-f6d2-41cd-acdb-78afcd4bf985 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1496809047760 (12:17:27 GMT+0800 (中国标准时间))
 [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true},"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true,"deviceUDID":"MSM8926","platformVersion":"4.3","deviceScreenSize":"720x1280","deviceModel":"N9180","deviceManufacturer":"ZTE"}
-[HTTP] <-- POST /wd/hub/session 200 17781 ms - 917 
-[HTTP] --> POST /wd/hub/session/7f7c674c-519d-434c-a7c7-ee5359a50d27/touch/perform {"actions":[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}]}
-[debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}],"7f7c674c-519d-434c-a7c7-ee5359a50d27"]
+[HTTP] <-- POST /wd/hub/session 200 17801 ms - 917 
+[HTTP] --> POST /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/touch/perform {"actions":[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}]}
+[debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}],"b092bfe4-f6d2-41cd-acdb-78afcd4bf985"]
 [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":15,"startY":15,"endX":15,"endY":15,"steps":6}}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":15,"startY":15,"endX":15,"endY":15,"steps":6}}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
@@ -435,9 +422,9 @@
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
 [debug] [AndroidBootstrap] Received command result from bootstrap
 [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
-[HTTP] <-- POST /wd/hub/session/7f7c674c-519d-434c-a7c7-ee5359a50d27/touch/perform 200 168 ms - 76 
-[HTTP] --> POST /wd/hub/session/7f7c674c-519d-434c-a7c7-ee5359a50d27/element {"using":"id","value":"Settings"}
-[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","Settings","7f7c674c-519d-434c-a7c7-ee5359a50d27"]
+[HTTP] <-- POST /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/touch/perform 200 183 ms - 76 
+[HTTP] --> POST /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/element {"using":"id","value":"Settings"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","Settings","b092bfe4-f6d2-41cd-acdb-78afcd4bf985"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
@@ -458,22 +445,22 @@
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=Settings, INSTANCE=0]
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"No element found","status":7}
 [debug] [AndroidBootstrap] Received command result from bootstrap
-[HTTP] <-- POST /wd/hub/session/7f7c674c-519d-434c-a7c7-ee5359a50d27/element 500 4299 ms - 164 
-[HTTP] --> GET /wd/hub/session/7f7c674c-519d-434c-a7c7-ee5359a50d27/screenshot {}
-[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["7f7c674c-519d-434c-a7c7-ee5359a50d27"]
+[HTTP] <-- POST /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/element 500 4030 ms - 164 
+[HTTP] --> GET /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/screenshot {}
+[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["b092bfe4-f6d2-41cd-acdb-78afcd4bf985"]
 [debug] [ADB] Device API level: 18
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","/system/bin/rm","/data/local/tmp/screenshot.png;","/system/bin/screencap","-p","/data/local/tmp/screenshot.png"]
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","pull","/data/local/tmp/screenshot.png","C:\\Users\\px\\AppData\\Local\\Temp\\appium11756-28268-s8u1mo.bwy3.png"]
+[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","pull","/data/local/tmp/screenshot.png","C:\\Users\\px\\AppData\\Local\\Temp\\appium11757-111808-16jolsn.o7jx.png"]
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","input"]
 [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezB/+//60Hf9fvj/Xxdj3PRQi21BYoMmGww5mADMr6W8Z0pzDGFkc2F0ICyqHHJ4h8ydT9sS+bI0ARipiZGnTDke0NDooBjENAoE8NgBeSLDPu4ntf74a/t6ZdVOJ/TQ3LdbgLKcRzHcRzHcRwfkieO4ziO4ziO4/iQPXEcx3Ecx3Ecx4fsieM4juM4juM4PmRPHMdxHMdxHMfxIXviOI7jOI7jOI4P2YNXyC/83+XlvvILP4Of/Zmf4pU0bN7xEz/PW9/6Vl7u733n3+Wv/ntv5ziO4ziO4zhelCd+n/mz/+Zf4K1vfSsv9+53v5u//Tf/OsdxHMdxHMfxIj3x+8jrXvd6/q1v+lbenx/5gf+Rn/mpH+c4juM4juM4XqQnfh/5nM/7Ij7lUz+dl8u7381/+jf/I56fnzmO4ziO4ziOF+nBK2Q/80LZL/ElX/6v8oY3/ovsZ97LT/7E/8zP/sxPcRzHcRzHcRwv2hO/T7zxTW/ibV/yFTw9PfGe7vvm+7/37/Orv/JPOY7jOI7jOI4X7cErZD/zPlpeMX/ic76AP/zpn8l+5r386q/+Kj/0/d/N3pvjOI7jOI7jeNGe+H3guh58y1/+K7w/P/MPf5yf+amf5DiO4ziO4zheDU/8PvD5b/tSPvtz38b787f/xl8j7343x3Ecx3Ecx/FqeOI17rou3v5tf4Xruni5n/mpn+AdP/gPOI7jOI7jOI5XyxOvcZ/2Rz+TP/oZn83L7ednvv1v/ce05TiO4ziO4zheLU+8hj09PfEFX/xVvPktH8vL/R//28/xznf8AMdxHMdxHMfxanriNewNb/xo/tSXfSWPx4P31JYf/eHv412//E84juM4juM4jlfTg1fIfuZ9lN+bT/v0z+CPf87ns595L7/xG7/OD33fd5O8m+M4juM4juN4NT3xGvaN3/RtfMTrPpKX+4Vf+Hne+Y7v4ziO4ziO...
-[HTTP] <-- GET /wd/hub/session/7f7c674c-519d-434c-a7c7-ee5359a50d27/screenshot 200 2384 ms - 1340070 
-[HTTP] --> DELETE /wd/hub/session/7f7c674c-519d-434c-a7c7-ee5359a50d27 {}
-[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["7f7c674c-519d-434c-a7c7-ee5359a50d27"]
-[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1496747199326 (19:06:39 GMT+0800 (中国标准时间))
+[HTTP] <-- GET /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/screenshot 200 2363 ms - 1340070 
+[HTTP] --> DELETE /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985 {}
+[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["b092bfe4-f6d2-41cd-acdb-78afcd4bf985"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1496809054490 (12:17:34 GMT+0800 (中国标准时间))
 [debug] [AndroidDriver] Shutting down Android driver
 [debug] [AndroidDriver] Resetting IME to io.appium.android.ime/.UnicodeIME
 [debug] [ADB] Getting connected devices...
@@ -500,7 +487,7 @@
 [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
 [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
 [debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 14.77
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 14.341
 [debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
 [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
 [debug] [AndroidBootstrap] Received command result from bootstrap
@@ -520,9 +507,9 @@
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","force-stop","io.appium.unlock"]
 [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
-[Appium] Removing session 7f7c674c-519d-434c-a7c7-ee5359a50d27 from our master session list
-[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1496747203319 (19:06:43 GMT+0800 (中国标准时间))
+[Appium] Removing session b092bfe4-f6d2-41cd-acdb-78afcd4bf985 from our master session list
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1496809058466 (12:17:38 GMT+0800 (中国标准时间))
 [debug] [MJSONWP] Received response: null
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
-[HTTP] <-- DELETE /wd/hub/session/7f7c674c-519d-434c-a7c7-ee5359a50d27 200 3995 ms - 76 
+[HTTP] <-- DELETE /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985 200 3977 ms - 76 

@@ -119,7 +119,7 @@
 		      <argLine>-Xms1024m -Xmx1024m -XX:PermSize=128m -XX:MaxPermSize=128m</argLine>
 		      <forkMode>never</forkMode>
 		          <suiteXmlFiles>
-		              <suiteXmlFile>testng.xml</suiteXmlFile>
+		              <!--<suiteXmlFile>testng.xml</suiteXmlFile>--> 
 		          </suiteXmlFiles>
 		      </configuration>
 	   	  </plugin> 
@@ -131,7 +131,7 @@
 		        <configuration>  
 		            <archive>
 		                <manifest>  
-		                    <mainClass>com.mushishi.appium.main.ExecMain</mainClass>  
+		                    <mainClass>com.moji.appium.main.ExecMain</mainClass>  
 		                </manifest>  
 		                <!-- 用maven在MANIFEST.MF资料中的Class-Path中增加当前目录(.)  -->
                         <manifestEntries>

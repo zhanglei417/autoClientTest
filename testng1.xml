@@ -9,8 +9,7 @@
         <parameter name="udid" value="MSM8926"/>
         <parameter name="port" value="4490"/>
         <classes>
-            <class name="com.moji.appium.testcases.testmoji"/>
-            <class name="com.moji.appium.testcases.testmoji2"/>
+            <class name="com.moji.appium.testcases.MvnInit"/>
         </classes>
     </test>
 </suite>

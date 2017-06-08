@@ -1,23 +1,30 @@
 package com.moji.appium.testcases;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.testng.TestNG;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.moji.appium.main.AppiumInit;
+import com.moji.appium.main.ExecMain;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class testmoji extends CaseBaseTest {
 
+@Parameters({"udid","port"})
 @BeforeClass(alwaysRun=true)
-public void setUp() throws Exception {
-	driver = new CaseBaseTest().driverInit("MSM8926", "4490");
+public void setUp(String udid, String port) throws Exception {
+	driver = new CaseBaseTest().driverInit(udid, port);
 }
 
 

@@ -2,41 +2,57 @@
 <testng-results skipped="0" failed="2" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60574" started-at="2017-06-06T11:05:43Z" finished-at="2017-06-06T11:06:44Z">
+  <suite name="Suite" duration-ms="60045" started-at="2017-06-07T04:16:39Z" finished-at="2017-06-07T04:17:39Z">
     <groups>
     </groups>
-    <test name="MSM8926" duration-ms="60574" started-at="2017-06-06T11:05:43Z" finished-at="2017-06-06T11:06:44Z">
+    <test name="MSM8926" duration-ms="60045" started-at="2017-06-07T04:16:39Z" finished-at="2017-06-07T04:17:39Z">
       <class name="com.moji.appium.testcases.testmoji">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.moji.appium.testcases.testmoji@28d25987]" name="setUp" is-config="true" duration-ms="19255" started-at="2017-06-06T19:05:43Z" finished-at="2017-06-06T19:06:02Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.moji.appium.testcases.testmoji@737996a0]" name="setUp" is-config="true" duration-ms="18968" started-at="2017-06-07T12:16:39Z" finished-at="2017-06-07T12:16:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSM8926]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4490]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.moji.appium.testcases.testmoji@28d25987]" name="testLogin" duration-ms="209" started-at="2017-06-06T19:06:02Z" finished-at="2017-06-06T19:06:03Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.moji.appium.testcases.testmoji@737996a0]" name="testLogin" duration-ms="191" started-at="2017-06-07T12:16:58Z" finished-at="2017-06-07T12:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="FAIL" signature="testSettings()[pri:0, instance:com.moji.appium.testcases.testmoji@28d25987]" name="testSettings" duration-ms="3999" started-at="2017-06-06T19:06:03Z" finished-at="2017-06-06T19:06:07Z">
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:com.moji.appium.testcases.testmoji@737996a0]" name="testLogout" duration-ms="0" started-at="2017-06-07T12:16:58Z" finished-at="2017-06-07T12:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="FAIL" signature="testSettings()[pri:0, instance:com.moji.appium.testcases.testmoji@737996a0]" name="testSettings" duration-ms="4108" started-at="2017-06-07T12:16:58Z" finished-at="2017-06-07T12:17:02Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.00 seconds
+Command duration or timeout: 4.11 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'px-PC', ip: '192.168.42.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: com.moji.appium.base.AndroidDriverBase
 Capabilities [{appPackage=com.moji.mjweather, noReset=true, deviceName=MSM8926, platform=LINUX, deviceUDID=MSM8926, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, app=g:\apps\moji.apk, noReset=true, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.3, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceManufacturer=ZTE, resetKeyboard=true, app=g:\apps\moji.apk, deviceScreenSize=720x1280, networkConnectionEnabled=true, noSign=true, warnings={}, databaseEnabled=false, appActivity=LauncherActivity, locationContextEnabled=false, deviceModel=N9180}]
-Session ID: ea7dfe6d-4421-4ad2-a104-9fd9b2974d56
+Session ID: 5634fd3b-2bf0-42b0-b26d-9d480fc5be52
 *** Element info: {Using=id, value=Settings}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.00 seconds
+Command duration or timeout: 4.11 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'px-PC', ip: '192.168.42.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: com.moji.appium.base.AndroidDriverBase
 Capabilities [{appPackage=com.moji.mjweather, noReset=true, deviceName=MSM8926, platform=LINUX, deviceUDID=MSM8926, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, app=g:\apps\moji.apk, noReset=true, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.3, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceManufacturer=ZTE, resetKeyboard=true, app=g:\apps\moji.apk, deviceScreenSize=720x1280, networkConnectionEnabled=true, noSign=true, warnings={}, databaseEnabled=false, appActivity=LauncherActivity, locationContextEnabled=false, deviceModel=N9180}]
-Session ID: ea7dfe6d-4421-4ad2-a104-9fd9b2974d56
+Session ID: 5634fd3b-2bf0-42b0-b26d-9d480fc5be52
 *** Element info: {Using=id, value=Settings}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -55,7 +71,7 @@ Session ID: ea7dfe6d-4421-4ad2-a104-9fd9b2974d56
 	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
 	at com.moji.appium.base.AndroidDriverBase.findElementById(AndroidDriverBase.java:1)
-	at com.moji.appium.testcases.testmoji.testSettings(testmoji.java:33)
+	at com.moji.appium.testcases.testmoji.testSettings(testmoji.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -82,50 +98,58 @@ Session ID: ea7dfe6d-4421-4ad2-a104-9fd9b2974d56
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSettings -->
-        <test-method status="PASS" signature="testLogout()[pri:0, instance:com.moji.appium.testcases.testmoji@28d25987]" name="testLogout" duration-ms="0" started-at="2017-06-06T19:06:03Z" finished-at="2017-06-06T19:06:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogout -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.moji.appium.testcases.testmoji@28d25987]" name="aftertest" is-config="true" duration-ms="4895" started-at="2017-06-06T19:06:09Z" finished-at="2017-06-06T19:06:14Z">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.moji.appium.testcases.testmoji@737996a0]" name="aftertest" is-config="true" duration-ms="4866" started-at="2017-06-07T12:17:05Z" finished-at="2017-06-07T12:17:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
       </class> <!-- com.moji.appium.testcases.testmoji -->
       <class name="com.moji.appium.testcases.testmoji2">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.moji.appium.testcases.testmoji2@4501b7af]" name="setUp" is-config="true" duration-ms="17792" started-at="2017-06-06T19:06:14Z" finished-at="2017-06-06T19:06:32Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.moji.appium.testcases.testmoji2@61dc03ce]" name="setUp" is-config="true" duration-ms="17823" started-at="2017-06-07T12:17:09Z" finished-at="2017-06-07T12:17:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSM8926]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4490]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.moji.appium.testcases.testmoji2@4501b7af]" name="testLogin" duration-ms="173" started-at="2017-06-06T19:06:32Z" finished-at="2017-06-06T19:06:32Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.moji.appium.testcases.testmoji2@61dc03ce]" name="testLogin" duration-ms="196" started-at="2017-06-07T12:17:27Z" finished-at="2017-06-07T12:17:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogout()[pri:0, instance:com.moji.appium.testcases.testmoji2@4501b7af]" name="testLogout" duration-ms="0" started-at="2017-06-06T19:06:32Z" finished-at="2017-06-06T19:06:32Z">
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:com.moji.appium.testcases.testmoji2@61dc03ce]" name="testLogout" duration-ms="0" started-at="2017-06-07T12:17:27Z" finished-at="2017-06-07T12:17:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method status="FAIL" signature="testSettings()[pri:0, instance:com.moji.appium.testcases.testmoji2@4501b7af]" name="testSettings" duration-ms="4304" started-at="2017-06-06T19:06:32Z" finished-at="2017-06-06T19:06:36Z">
+        <test-method status="FAIL" signature="testSettings()[pri:0, instance:com.moji.appium.testcases.testmoji2@61dc03ce]" name="testSettings" duration-ms="4035" started-at="2017-06-07T12:17:27Z" finished-at="2017-06-07T12:17:32Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.30 seconds
+Command duration or timeout: 4.03 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'px-PC', ip: '192.168.42.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: com.moji.appium.base.AndroidDriverBase
 Capabilities [{appPackage=com.moji.mjweather, noReset=true, deviceName=MSM8926, platform=LINUX, deviceUDID=MSM8926, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, app=g:\apps\moji.apk, noReset=true, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.3, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceManufacturer=ZTE, resetKeyboard=true, app=g:\apps\moji.apk, deviceScreenSize=720x1280, networkConnectionEnabled=true, noSign=true, warnings={}, databaseEnabled=false, appActivity=LauncherActivity, locationContextEnabled=false, deviceModel=N9180}]
-Session ID: 7f7c674c-519d-434c-a7c7-ee5359a50d27
+Session ID: b092bfe4-f6d2-41cd-acdb-78afcd4bf985
 *** Element info: {Using=id, value=Settings}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.30 seconds
+Command duration or timeout: 4.03 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'px-PC', ip: '192.168.42.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: com.moji.appium.base.AndroidDriverBase
 Capabilities [{appPackage=com.moji.mjweather, noReset=true, deviceName=MSM8926, platform=LINUX, deviceUDID=MSM8926, desired={appPackage=com.moji.mjweather, appActivity=LauncherActivity, app=g:\apps\moji.apk, noReset=true, noSign=true, newCommandTimeout=600, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceName=MSM8926, resetKeyboard=true}, newCommandTimeout=600, platformVersion=4.3, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, udid=MSM8926, platformName=Android, deviceManufacturer=ZTE, resetKeyboard=true, app=g:\apps\moji.apk, deviceScreenSize=720x1280, networkConnectionEnabled=true, noSign=true, warnings={}, databaseEnabled=false, appActivity=LauncherActivity, locationContextEnabled=false, deviceModel=N9180}]
-Session ID: 7f7c674c-519d-434c-a7c7-ee5359a50d27
+Session ID: b092bfe4-f6d2-41cd-acdb-78afcd4bf985
 *** Element info: {Using=id, value=Settings}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -144,7 +168,7 @@ Session ID: 7f7c674c-519d-434c-a7c7-ee5359a50d27
 	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
 	at com.moji.appium.base.AndroidDriverBase.findElementById(AndroidDriverBase.java:1)
-	at com.moji.appium.testcases.testmoji2.testSettings(testmoji2.java:32)
+	at com.moji.appium.testcases.testmoji2.testSettings(testmoji2.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -171,7 +195,7 @@ Session ID: 7f7c674c-519d-434c-a7c7-ee5359a50d27
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSettings -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.moji.appium.testcases.testmoji2@4501b7af]" name="aftertest" is-config="true" duration-ms="4986" started-at="2017-06-06T19:06:39Z" finished-at="2017-06-06T19:06:44Z">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.moji.appium.testcases.testmoji2@61dc03ce]" name="aftertest" is-config="true" duration-ms="4871" started-at="2017-06-07T12:17:34Z" finished-at="2017-06-07T12:17:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
