@@ -33,7 +33,7 @@ public class CaseBaseTest {
 	}    
 
 	public static void main(String[] args) throws Exception {
-		new CaseBaseTest().driverInit("MSM8926", "4490");
+		new CaseBaseTest().driverInit("MSM8926", "4723");
 
 	}
 }
