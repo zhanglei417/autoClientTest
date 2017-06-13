@@ -1,21 +1,21 @@
 [Appium] Welcome to Appium v1.6.5
 [Appium] Non-default server args:
 [Appium]   port: 4490
-[Appium]   bootstrapPort: 2238
+[Appium]   bootstrapPort: 2235
 [Appium]   udid: MSM8926
 [Appium] Deprecated server args:
 [Appium]   -U,--udid => --default-capabilities '{"udid":"MSM8926"}'
 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
 [Appium]   udid: 'MSM8926'
 [Appium] Appium REST http interface listener started on 0.0.0.0:4490
-[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"}}
-[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"},null,null]
-[debug] [BaseDriver] Event 'newSessionRequested' logged at 1496809000100 (12:16:40 GMT+0800 (中国标准时间))
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"e:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"e:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"},null,null]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1496896132162 (12:28:52 GMT+0800 (中国标准时间))
 [Appium] Creating new AndroidDriver (v1.20.0) session
 [Appium] Capabilities:
 [Appium]   appPackage: 'com.moji.mjweather'
 [Appium]   appActivity: 'LauncherActivity'
-[Appium]   app: 'g:\\apps\\moji.apk'
+[Appium]   app: 'e:\\apps\\moji.apk'
 [Appium]   noReset: true
 [Appium]   noSign: 'True'
 [Appium]   newCommandTimeout: '600'
@@ -29,117 +29,121 @@
 [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
 [BaseDriver] Capability 'noSign' changed from string to boolean. This may cause unexpected behavior
 [BaseDriver] Capability 'newCommandTimeout' changed from string ('600') to integer (600). This may cause unexpected behavior
-[BaseDriver] Session created with session id: 5634fd3b-2bf0-42b0-b26d-9d480fc5be52
+[BaseDriver] Session created with session id: d86c4a55-4adf-40bf-a7e9-b01a3add09c2
 [debug] [AndroidDriver] Getting Java version
 [AndroidDriver] Java version is: 1.8.0_131
 [ADB] Checking whether adb is present
-[ADB] Using adb.exe from G:\Android\sdk\platform-tools\adb.exe
+[ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+[ADB] Using adb from C:\Android\sdk\platform-tools\adb.exe
+
 [AndroidDriver] Retrieving device list
 [debug] [ADB] Trying to find a connected android device
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
 [AndroidDriver] Using device: MSM8926
 [ADB] Checking whether adb is present
-[ADB] Using adb.exe from G:\Android\sdk\platform-tools\adb.exe
+[ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+[ADB] Using adb from C:\Android\sdk\platform-tools\adb.exe
+
 [debug] [ADB] Setting device id to MSM8926
-[BaseDriver] Using local app 'g:\apps\moji.apk'
+[BaseDriver] Using local app 'e:\apps\moji.apk'
 [debug] [AndroidDriver] Checking whether app is actually present
 [AndroidDriver] Starting Android session
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","wait-for-device"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","wait-for-device"]
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","echo","ping"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","echo","ping"]
 [debug] [Logcat] Starting logcat capture
 [debug] [AndroidDriver] Enabling Unicode keyboard support
 [debug] [AndroidDriver] Pushing unicode ime to device...
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","install","G:\\testing\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","install","C:\\tools\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk"]
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","settings","get","secure","default_input_method"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","settings","get","secure","default_input_method"]
 [debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
 [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
 [debug] [AndroidDriver] Pushing settings apk to device...
 [debug] [ADB] Getting install status for io.appium.settings
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","pm","list","packages","io.appium.settings"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","pm","list","packages","io.appium.settings"]
 [debug] [ADB] App is installed
 [debug] [ADB] Getting package info for io.appium.settings
 [debug] [ADB] Getting connected devices...
 [ADB] Checking whether aapt is present
-[ADB] Using aapt.exe from G:\Android\sdk\build-tools\25.0.2\aapt.exe
+[ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for aapt.
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","package","io.appium.settings"]
-[ADB] Cannot read version codes of G:\testing\node-v8.0.0-win-x64\node-v8.0.0-win-x64\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","package","io.appium.settings"]
+[AndroidDriver] Ignored error while installing Appium Settings helper: "Could not find aapt Please set the ANDROID_HOME environment variable with the Android SDK root directory path.". Expect some Appium features may not work as expected unless this problem is fixed.
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.build.version.sdk"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.build.version.sdk"]
 [debug] [ADB] Device API level: 18
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","package","io.appium.settings"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","package","io.appium.settings"]
 [debug] [AndroidDriver] Pushing unlock helper app to device...
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","install","G:\\testing\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","install","C:\\tools\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
 [debug] [ADB] Device API level: 18
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","settings","put","secure","mock_location","1"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","settings","put","secure","mock_location","1"]
 [ADB] Getting device platform version
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.build.version.release"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.build.version.release"]
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","wm","size"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","wm","size"]
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.product.model"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.product.model"]
 [debug] [ADB] Current device property 'ro.product.model': N9180
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.product.manufacturer"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.product.manufacturer"]
 [debug] [ADB] Current device property 'ro.product.manufacturer': ZTE
 [AndroidDriver] Remote apk path is /data/local/tmp/e84f7aadee2692fc2a7acdd7c9149440.apk
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ls","/data/local/tmp/e84f7aadee2692fc2a7acdd7c9149440.apk"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ls","/data/local/tmp/e84f7aadee2692fc2a7acdd7c9149440.apk"]
 [debug] [AndroidDriver] Checking if app is installed
 [debug] [ADB] Getting install status for com.moji.mjweather
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","pm","list","packages","com.moji.mjweather"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","pm","list","packages","com.moji.mjweather"]
 [debug] [ADB] App is installed
-[debug] [AndroidDriver] Extracting strings from apk g:\apps\moji.apk null C:\Users\px\AppData\Local\Temp\com.moji.mjweather
+[debug] [AndroidDriver] Extracting strings from apk e:\apps\moji.apk null C:\Users\MLEI~1.ZHA\AppData\Local\Temp\com.moji.mjweather
 [debug] [ADB] Extracting strings for language: default
 [debug] [ADB] Device API level: 18
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","persist.sys.language"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","persist.sys.language"]
 [debug] [ADB] Current device property 'persist.sys.language': zh
 [debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
 [AndroidDriver] Could not get strings, continuing anyway
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","echo"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","echo"]
 [debug] [AndroidBootstrap] Watching for bootstrap disconnect
-[debug] [ADB] Forwarding system: 2238 to device: 4724
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","forward","tcp:2238","tcp:4724"]
+[debug] [ADB] Forwarding system: 2235 to device: 4724
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","forward","tcp:2235","tcp:4724"]
 [debug] [UiAutomator] Starting UiAutomator
 [debug] [UiAutomator] Moving to state 'starting'
 [debug] [UiAutomator] Parsing uiautomator jar
 [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","push","G:\\testing\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","push","C:\\tools\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
 [debug] [ADB] Attempting to kill all uiautomator processes
 [debug] [ADB] Getting all processes with uiautomator
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ps"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ps"]
 [ADB] No uiautomator process found to kill, continuing...
 [debug] [UiAutomator] Starting UIAutomator
 [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","MSM8926","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.moji.mjweather","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
@@ -149,23 +153,23 @@
 [debug] [ADB] Getting connected devices...
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","window"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","window"]
 [AndroidDriver] Screen already unlocked, doing nothing
 [debug] [ADB] Device API level: 18
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","start","-W","-n","com.moji.mjweather/LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","start","-W","-n","com.moji.mjweather/LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
 [debug] [ADB] We tried to start an activity that doesn't exist, retrying with . prepended to activity
 [debug] [ADB] Device API level: 18
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","start","-W","-n","com.moji.mjweather/.LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
-[Appium] New AndroidDriver session created successfully, session 5634fd3b-2bf0-42b0-b26d-9d480fc5be52 added to master session list
-[debug] [BaseDriver] Event 'newSessionStarted' logged at 1496809018260 (12:16:58 GMT+0800 (中国标准时间))
-[debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true},"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true,"deviceUDID":"MSM8926","platformVersion":"4.3","deviceScreenSize":"720x1280","deviceModel":"N9180","deviceManufacturer":"ZTE"}
-[HTTP] <-- POST /wd/hub/session 200 18165 ms - 917 
-[HTTP] --> POST /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/touch/perform {"actions":[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}]}
-[debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}],"5634fd3b-2bf0-42b0-b26d-9d480fc5be52"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","start","-W","-n","com.moji.mjweather/.LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+[Appium] New AndroidDriver session created successfully, session d86c4a55-4adf-40bf-a7e9-b01a3add09c2 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1496896147619 (12:29:07 GMT+0800 (中国标准时间))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"e:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true},"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"e:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true,"deviceUDID":"MSM8926","platformVersion":"4.3","deviceScreenSize":"720x1280","deviceModel":"N9180","deviceManufacturer":"ZTE"}
+[HTTP] <-- POST /wd/hub/session 200 15463 ms - 917 
+[HTTP] --> POST /wd/hub/session/d86c4a55-4adf-40bf-a7e9-b01a3add09c2/touch/perform {"actions":[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}]}
+[debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}],"d86c4a55-4adf-40bf-a7e9-b01a3add09c2"]
 [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":15,"startY":15,"endX":15,"endY":15,"steps":6}}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":15,"startY":15,"endX":15,"endY":15,"steps":6}}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
@@ -176,9 +180,9 @@
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
 [debug] [AndroidBootstrap] Received command result from bootstrap
 [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
-[HTTP] <-- POST /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/touch/perform 200 185 ms - 76 
-[HTTP] --> POST /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/element {"using":"id","value":"Settings"}
-[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","Settings","5634fd3b-2bf0-42b0-b26d-9d480fc5be52"]
+[HTTP] <-- POST /wd/hub/session/d86c4a55-4adf-40bf-a7e9-b01a3add09c2/touch/perform 200 198 ms - 76 
+[HTTP] --> POST /wd/hub/session/d86c4a55-4adf-40bf-a7e9-b01a3add09c2/element {"using":"id","value":"Settings"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","Settings","d86c4a55-4adf-40bf-a7e9-b01a3add09c2"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
@@ -199,280 +203,34 @@
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=Settings, INSTANCE=0]
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"No element found","status":7}
 [debug] [AndroidBootstrap] Received command result from bootstrap
-[HTTP] <-- POST /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/element 500 4100 ms - 164 
-[HTTP] --> GET /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/screenshot {}
-[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["5634fd3b-2bf0-42b0-b26d-9d480fc5be52"]
+[HTTP] <-- POST /wd/hub/session/d86c4a55-4adf-40bf-a7e9-b01a3add09c2/element 500 3978 ms - 164 
+[HTTP] --> GET /wd/hub/session/d86c4a55-4adf-40bf-a7e9-b01a3add09c2/screenshot {}
+[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["d86c4a55-4adf-40bf-a7e9-b01a3add09c2"]
 [debug] [ADB] Device API level: 18
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","/system/bin/rm","/data/local/tmp/screenshot.png;","/system/bin/screencap","-p","/data/local/tmp/screenshot.png"]
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","pull","/data/local/tmp/screenshot.png","C:\\Users\\px\\AppData\\Local\\Temp\\appium11757-111808-hggogc.bmoot.png"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","/system/bin/rm","/data/local/tmp/screenshot.png;","/system/bin/screencap","-p","/data/local/tmp/screenshot.png"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","pull","/data/local/tmp/screenshot.png","C:\\Users\\MLEI~1.ZHA\\AppData\\Local\\Temp\\appium11758-9196-h9l49l.z9k9d.png"]
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","input"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","input"]
 [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezB/+//60Hf9fvj/Xxdj3PRQi21BYoMmGww5mADMr6W8Z0pzDGFkc2F0ICyqHHJ4h8ydT9sS+bI0ARipiZGnTDke0NDooBjENAoE8NgBeSLDPu4ntf74a/t6ZdVOJ/TQ3LdbgLKcRzHcRzHcRwfkieO4ziO4ziO4/iQPXEcx3Ecx3Ecx4fsieM4juM4juM4PmRPHMdxHMdxHMfxIXviOI7jOI7jOI4P2YNXyC/83+XlvvILP4Of/Zmf4pU0bN7xEz/PW9/6Vl7u733n3+Wv/ntv5ziO4ziO4zhelCd+n/mz/+Zf4K1vfSsv9+53v5u//Tf/OsdxHMdxHMfxIj3x+8jrXvd6/q1v+lbenx/5gf+Rn/mpH+c4juM4juM4XqQnfh/5nM/7Ij7lUz+dl8u7381/+jf/I56fnzmO4ziO4ziOF+nBK2Q/80LZL/ElX/6v8oY3/ovsZ97LT/7E/8zP/sxPcRzHcRzHcRwv2hO/T7zxTW/ibV/yFTw9PfGe7vvm+7/37/Orv/JPOY7jOI7jOI4X7cErZD/zPlpeMX/ic76AP/zpn8l+5r386q/+Kj/0/d/N3pvjOI7jOI7jeNGe+H3guh58y1/+K7w/P/MPf5yf+amf5DiO4ziO4zheDU/8PvD5b/tSPvtz38b787f/xl8j7343x3Ecx3Ecx/FqeOI17rou3v5tf4Xruni5n/mpn+AdP/gPOI7jOI7jOI5XyxOvcZ/2Rz+TP/oZn83L7ednvv1v/ce05TiO4ziO4zheLU+8hj09PfEFX/xVvPktH8vL/R//28/xznf8AMdxHMdxHMfxanriNewNb/xo/tSXfSWPx4P31JYf/eHv412//E84juM4juM4jlfTg1fIfuZ9lN+bT/v0z+CPf87ns595L7/xG7/OD33fd5O8m+M4juM4juN4NT3xGvaN3/RtfMTrPpKX+4Vf+Hne+Y7v4ziO4ziO...
-[HTTP] <-- GET /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52/screenshot 200 2357 ms - 1340070 
-[HTTP] --> DELETE /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52 {}
-[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["5634fd3b-2bf0-42b0-b26d-9d480fc5be52"]
-[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1496809025087 (12:17:05 GMT+0800 (中国标准时间))
+[HTTP] <-- GET /wd/hub/session/d86c4a55-4adf-40bf-a7e9-b01a3add09c2/screenshot 200 2062 ms - 1340070 
+[HTTP] --> DELETE /wd/hub/session/d86c4a55-4adf-40bf-a7e9-b01a3add09c2 {}
+[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["d86c4a55-4adf-40bf-a7e9-b01a3add09c2"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1496896154103 (12:29:14 GMT+0800 (中国标准时间))
 [debug] [AndroidDriver] Shutting down Android driver
 [debug] [AndroidDriver] Resetting IME to io.appium.android.ime/.UnicodeIME
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","force-stop","com.moji.mjweather"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","force-stop","com.moji.mjweather"]
 [debug] [ADB] Pressing the HOME button
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","input","keyevent",3]
-[debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"OK, shutting down","status":0}
-[debug] [AndroidBootstrap] Received command result from bootstrap
-[debug] [UiAutomator] Shutting down UiAutomator
-[debug] [UiAutomator] Moving to state 'stopping'
-[debug] [UiAutomator] UiAutomator shut down normally
-[debug] [UiAutomator] Moving to state 'stopped'
-[debug] [ADB] Attempting to kill all uiautomator processes
-[debug] [ADB] Getting all processes with uiautomator
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ps"]
-[ADB] No uiautomator process found to kill, continuing...
-[debug] [UiAutomator] Moving to state 'stopped'
-[debug] [Logcat] Stopping logcat capture
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","force-stop","io.appium.unlock"]
-[debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
-[Appium] Removing session 5634fd3b-2bf0-42b0-b26d-9d480fc5be52 from our master session list
-[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1496809029003 (12:17:09 GMT+0800 (中国标准时间))
-[debug] [MJSONWP] Received response: null
-[debug] [MJSONWP] But deleting session, so not returning
-[debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
-[HTTP] <-- DELETE /wd/hub/session/5634fd3b-2bf0-42b0-b26d-9d480fc5be52 200 3916 ms - 76 
-[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"}}
-[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"},null,null]
-[debug] [BaseDriver] Event 'newSessionRequested' logged at 1496809029962 (12:17:09 GMT+0800 (中国标准时间))
-[Appium] Creating new AndroidDriver (v1.20.0) session
-[Appium] Capabilities:
-[Appium]   appPackage: 'com.moji.mjweather'
-[Appium]   appActivity: 'LauncherActivity'
-[Appium]   app: 'g:\\apps\\moji.apk'
-[Appium]   noReset: true
-[Appium]   noSign: 'True'
-[Appium]   newCommandTimeout: '600'
-[Appium]   unicodeKeyboard: 'True'
-[Appium]   udid: 'MSM8926'
-[Appium]   platformName: 'Android'
-[Appium]   deviceName: 'MSM8926'
-[Appium]   resetKeyboard: 'True'
-[debug] [AndroidDriver] AndroidDriver version: 1.20.0
-[BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
-[BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
-[BaseDriver] Capability 'noSign' changed from string to boolean. This may cause unexpected behavior
-[BaseDriver] Capability 'newCommandTimeout' changed from string ('600') to integer (600). This may cause unexpected behavior
-[BaseDriver] Session created with session id: b092bfe4-f6d2-41cd-acdb-78afcd4bf985
-[debug] [AndroidDriver] Getting Java version
-[AndroidDriver] Java version is: 1.8.0_131
-[ADB] Checking whether adb is present
-[ADB] Using adb.exe from G:\Android\sdk\platform-tools\adb.exe
-[AndroidDriver] Retrieving device list
-[debug] [ADB] Trying to find a connected android device
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[AndroidDriver] Using device: MSM8926
-[ADB] Checking whether adb is present
-[ADB] Using adb.exe from G:\Android\sdk\platform-tools\adb.exe
-[debug] [ADB] Setting device id to MSM8926
-[BaseDriver] Using local app 'g:\apps\moji.apk'
-[debug] [AndroidDriver] Checking whether app is actually present
-[AndroidDriver] Starting Android session
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","wait-for-device"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","echo","ping"]
-[debug] [Logcat] Starting logcat capture
-[debug] [AndroidDriver] Enabling Unicode keyboard support
-[debug] [AndroidDriver] Pushing unicode ime to device...
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","install","G:\\testing\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","settings","get","secure","default_input_method"]
-[debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
-[debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
-[debug] [AndroidDriver] Pushing settings apk to device...
-[debug] [ADB] Getting install status for io.appium.settings
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","pm","list","packages","io.appium.settings"]
-[debug] [ADB] App is installed
-[debug] [ADB] Getting package info for io.appium.settings
-[debug] [ADB] Getting connected devices...
-[ADB] Checking whether aapt is present
-[ADB] Using aapt.exe from G:\Android\sdk\build-tools\25.0.2\aapt.exe
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","package","io.appium.settings"]
-[ADB] Cannot read version codes of G:\testing\node-v8.0.0-win-x64\node-v8.0.0-win-x64\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.build.version.sdk"]
-[debug] [ADB] Device API level: 18
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","package","io.appium.settings"]
-[debug] [AndroidDriver] Pushing unlock helper app to device...
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","install","G:\\testing\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
-[debug] [ADB] Device API level: 18
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","settings","put","secure","mock_location","1"]
-[ADB] Getting device platform version
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.build.version.release"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","wm","size"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.product.model"]
-[debug] [ADB] Current device property 'ro.product.model': N9180
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.product.manufacturer"]
-[debug] [ADB] Current device property 'ro.product.manufacturer': ZTE
-[AndroidDriver] Remote apk path is /data/local/tmp/e84f7aadee2692fc2a7acdd7c9149440.apk
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ls","/data/local/tmp/e84f7aadee2692fc2a7acdd7c9149440.apk"]
-[debug] [AndroidDriver] Checking if app is installed
-[debug] [ADB] Getting install status for com.moji.mjweather
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","pm","list","packages","com.moji.mjweather"]
-[debug] [ADB] App is installed
-[debug] [AndroidDriver] Extracting strings from apk g:\apps\moji.apk null C:\Users\px\AppData\Local\Temp\com.moji.mjweather
-[debug] [ADB] Extracting strings for language: default
-[debug] [ADB] Device API level: 18
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","persist.sys.language"]
-[debug] [ADB] Current device property 'persist.sys.language': zh
-[debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
-[AndroidDriver] Could not get strings, continuing anyway
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","echo"]
-[debug] [AndroidBootstrap] Watching for bootstrap disconnect
-[debug] [ADB] Forwarding system: 2238 to device: 4724
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","forward","tcp:2238","tcp:4724"]
-[debug] [UiAutomator] Starting UiAutomator
-[debug] [UiAutomator] Moving to state 'starting'
-[debug] [UiAutomator] Parsing uiautomator jar
-[debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","push","G:\\testing\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
-[debug] [ADB] Attempting to kill all uiautomator processes
-[debug] [ADB] Getting all processes with uiautomator
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ps"]
-[ADB] No uiautomator process found to kill, continuing...
-[debug] [UiAutomator] Starting UIAutomator
-[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","MSM8926","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.moji.mjweather","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
-[debug] [UiAutomator] Moving to state 'online'
-[AndroidBootstrap] Android bootstrap socket is now connected
-[debug] [ADB] Getting connected devices...
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","window"]
-[AndroidDriver] Screen already unlocked, doing nothing
-[debug] [ADB] Device API level: 18
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","start","-W","-n","com.moji.mjweather/LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
-[debug] [ADB] We tried to start an activity that doesn't exist, retrying with . prepended to activity
-[debug] [ADB] Device API level: 18
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","start","-W","-n","com.moji.mjweather/.LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
-[Appium] New AndroidDriver session created successfully, session b092bfe4-f6d2-41cd-acdb-78afcd4bf985 added to master session list
-[debug] [BaseDriver] Event 'newSessionStarted' logged at 1496809047760 (12:17:27 GMT+0800 (中国标准时间))
-[debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true},"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"g:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true,"deviceUDID":"MSM8926","platformVersion":"4.3","deviceScreenSize":"720x1280","deviceModel":"N9180","deviceManufacturer":"ZTE"}
-[HTTP] <-- POST /wd/hub/session 200 17801 ms - 917 
-[HTTP] --> POST /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/touch/perform {"actions":[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}]}
-[debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}],"b092bfe4-f6d2-41cd-acdb-78afcd4bf985"]
-[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":15,"startY":15,"endX":15,"endY":15,"steps":6}}
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":15,"startY":15,"endX":15,"endY":15,"steps":6}}
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=15.0, y=15.0] to [x=15.0, y=15.0] with steps: 6
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
-[debug] [AndroidBootstrap] Received command result from bootstrap
-[debug] [MJSONWP] Responding to client with driver.performTouch() result: true
-[HTTP] <-- POST /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/touch/perform 200 183 ms - 76 
-[HTTP] --> POST /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/element {"using":"id","value":"Settings"}
-[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","Settings","b092bfe4-f6d2-41cd-acdb-78afcd4bf985"]
-[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
-[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
-[debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"Settings","context":"","multiple":false}}
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"Settings","context":"","multiple":false}}
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'Settings' using 'ID' with the contextId: '' multiple: false
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.moji.mjweather:id/Settings]
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/Settings]
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=Settings]
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=Settings, INSTANCE=0]
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'Settings' using 'ID' with the contextId: '' multiple: false
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.moji.mjweather:id/Settings]
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/Settings]
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=Settings]
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=Settings, INSTANCE=0]
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"No element found","status":7}
-[debug] [AndroidBootstrap] Received command result from bootstrap
-[HTTP] <-- POST /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/element 500 4030 ms - 164 
-[HTTP] --> GET /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/screenshot {}
-[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["b092bfe4-f6d2-41cd-acdb-78afcd4bf985"]
-[debug] [ADB] Device API level: 18
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","/system/bin/rm","/data/local/tmp/screenshot.png;","/system/bin/screencap","-p","/data/local/tmp/screenshot.png"]
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","pull","/data/local/tmp/screenshot.png","C:\\Users\\px\\AppData\\Local\\Temp\\appium11757-111808-16jolsn.o7jx.png"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","input"]
-[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezB/+//60Hf9fvj/Xxdj3PRQi21BYoMmGww5mADMr6W8Z0pzDGFkc2F0ICyqHHJ4h8ydT9sS+bI0ARipiZGnTDke0NDooBjENAoE8NgBeSLDPu4ntf74a/t6ZdVOJ/TQ3LdbgLKcRzHcRzHcRwfkieO4ziO4ziO4/iQPXEcx3Ecx3Ecx4fsieM4juM4juM4PmRPHMdxHMdxHMfxIXviOI7jOI7jOI4P2YNXyC/83+XlvvILP4Of/Zmf4pU0bN7xEz/PW9/6Vl7u733n3+Wv/ntv5ziO4ziO4zhelCd+n/mz/+Zf4K1vfSsv9+53v5u//Tf/OsdxHMdxHMfxIj3x+8jrXvd6/q1v+lbenx/5gf+Rn/mpH+c4juM4juM4XqQnfh/5nM/7Ij7lUz+dl8u7381/+jf/I56fnzmO4ziO4ziOF+nBK2Q/80LZL/ElX/6v8oY3/ovsZ97LT/7E/8zP/sxPcRzHcRzHcRwv2hO/T7zxTW/ibV/yFTw9PfGe7vvm+7/37/Orv/JPOY7jOI7jOI4X7cErZD/zPlpeMX/ic76AP/zpn8l+5r386q/+Kj/0/d/N3pvjOI7jOI7jeNGe+H3guh58y1/+K7w/P/MPf5yf+amf5DiO4ziO4zheDU/8PvD5b/tSPvtz38b787f/xl8j7343x3Ecx3Ecx/FqeOI17rou3v5tf4Xruni5n/mpn+AdP/gPOI7jOI7jOI5XyxOvcZ/2Rz+TP/oZn83L7ednvv1v/ce05TiO4ziO4zheLU+8hj09PfEFX/xVvPktH8vL/R//28/xznf8AMdxHMdxHMfxanriNewNb/xo/tSXfSWPx4P31JYf/eHv412//E84juM4juM4jlfTg1fIfuZ9lN+bT/v0z+CPf87ns595L7/xG7/OD33fd5O8m+M4juM4juN4NT3xGvaN3/RtfMTrPpKX+4Vf+Hne+Y7v4ziO4ziO...
-[HTTP] <-- GET /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985/screenshot 200 2363 ms - 1340070 
-[HTTP] --> DELETE /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985 {}
-[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["b092bfe4-f6d2-41cd-acdb-78afcd4bf985"]
-[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1496809054490 (12:17:34 GMT+0800 (中国标准时间))
-[debug] [AndroidDriver] Shutting down Android driver
-[debug] [AndroidDriver] Resetting IME to io.appium.android.ime/.UnicodeIME
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","force-stop","com.moji.mjweather"]
-[debug] [ADB] Pressing the HOME button
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","input","keyevent",3]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","input","keyevent",3]
 [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
@@ -487,7 +245,7 @@
 [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
 [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
 [debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
-[debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 14.341
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 13.511
 [debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
 [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
 [debug] [AndroidBootstrap] Received command result from bootstrap
@@ -499,17 +257,282 @@
 [debug] [ADB] Getting all processes with uiautomator
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ps"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ps"]
 [ADB] No uiautomator process found to kill, continuing...
 [debug] [UiAutomator] Moving to state 'stopped'
 [debug] [Logcat] Stopping logcat capture
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'G:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","force-stop","io.appium.unlock"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","force-stop","io.appium.unlock"]
 [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
-[Appium] Removing session b092bfe4-f6d2-41cd-acdb-78afcd4bf985 from our master session list
-[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1496809058466 (12:17:38 GMT+0800 (中国标准时间))
+[Appium] Removing session d86c4a55-4adf-40bf-a7e9-b01a3add09c2 from our master session list
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1496896157497 (12:29:17 GMT+0800 (中国标准时间))
 [debug] [MJSONWP] Received response: null
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
-[HTTP] <-- DELETE /wd/hub/session/b092bfe4-f6d2-41cd-acdb-78afcd4bf985 200 3977 ms - 76 
+[HTTP] <-- DELETE /wd/hub/session/d86c4a55-4adf-40bf-a7e9-b01a3add09c2 200 3395 ms - 76 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"e:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"e:\\apps\\moji.apk","noReset":true,"noSign":"True","newCommandTimeout":"600","unicodeKeyboard":"True","udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":"True"},null,null]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1496896158360 (12:29:18 GMT+0800 (中国标准时间))
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   appPackage: 'com.moji.mjweather'
+[Appium]   appActivity: 'LauncherActivity'
+[Appium]   app: 'e:\\apps\\moji.apk'
+[Appium]   noReset: true
+[Appium]   noSign: 'True'
+[Appium]   newCommandTimeout: '600'
+[Appium]   unicodeKeyboard: 'True'
+[Appium]   udid: 'MSM8926'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'MSM8926'
+[Appium]   resetKeyboard: 'True'
+[debug] [AndroidDriver] AndroidDriver version: 1.20.0
+[BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+[BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+[BaseDriver] Capability 'noSign' changed from string to boolean. This may cause unexpected behavior
+[BaseDriver] Capability 'newCommandTimeout' changed from string ('600') to integer (600). This may cause unexpected behavior
+[BaseDriver] Session created with session id: 88ef9208-6c6a-427c-b44a-c9ceb03df9d3
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_131
+[ADB] Checking whether adb is present
+[ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+[ADB] Using adb from C:\Android\sdk\platform-tools\adb.exe
+
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: MSM8926
+[ADB] Checking whether adb is present
+[ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+[ADB] Using adb from C:\Android\sdk\platform-tools\adb.exe
+
+[debug] [ADB] Setting device id to MSM8926
+[BaseDriver] Using local app 'e:\apps\moji.apk'
+[debug] [AndroidDriver] Checking whether app is actually present
+[AndroidDriver] Starting Android session
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","wait-for-device"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","echo","ping"]
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Enabling Unicode keyboard support
+[debug] [AndroidDriver] Pushing unicode ime to device...
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","install","C:\\tools\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","settings","get","secure","default_input_method"]
+[debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+[debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","pm","list","packages","io.appium.settings"]
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[ADB] Checking whether aapt is present
+[ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for aapt.
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","package","io.appium.settings"]
+[AndroidDriver] Ignored error while installing Appium Settings helper: "write EPIPE". Expect some Appium features may not work as expected unless this problem is fixed.
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.build.version.sdk"]
+[debug] [ADB] Device API level: 18
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","package","io.appium.settings"]
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","install","C:\\tools\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+[debug] [ADB] Device API level: 18
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","settings","put","secure","mock_location","1"]
+[ADB] Getting device platform version
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.build.version.release"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","wm","size"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.product.model"]
+[debug] [ADB] Current device property 'ro.product.model': N9180
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","ro.product.manufacturer"]
+[debug] [ADB] Current device property 'ro.product.manufacturer': ZTE
+[AndroidDriver] Remote apk path is /data/local/tmp/e84f7aadee2692fc2a7acdd7c9149440.apk
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ls","/data/local/tmp/e84f7aadee2692fc2a7acdd7c9149440.apk"]
+[debug] [AndroidDriver] Checking if app is installed
+[debug] [ADB] Getting install status for com.moji.mjweather
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","pm","list","packages","com.moji.mjweather"]
+[debug] [ADB] App is installed
+[debug] [AndroidDriver] Extracting strings from apk e:\apps\moji.apk null C:\Users\MLEI~1.ZHA\AppData\Local\Temp\com.moji.mjweather
+[debug] [ADB] Extracting strings for language: default
+[debug] [ADB] Device API level: 18
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","getprop","persist.sys.language"]
+[debug] [ADB] Current device property 'persist.sys.language': zh
+[debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
+[AndroidDriver] Could not get strings, continuing anyway
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","echo"]
+[debug] [AndroidBootstrap] Watching for bootstrap disconnect
+[debug] [ADB] Forwarding system: 2235 to device: 4724
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","forward","tcp:2235","tcp:4724"]
+[debug] [UiAutomator] Starting UiAutomator
+[debug] [UiAutomator] Moving to state 'starting'
+[debug] [UiAutomator] Parsing uiautomator jar
+[debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","push","C:\\tools\\node-v8.0.0-win-x64\\node-v8.0.0-win-x64\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[debug] [UiAutomator] Starting UIAutomator
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","MSM8926","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.moji.mjweather","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [UiAutomator] Moving to state 'online'
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[debug] [ADB] Getting connected devices...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","window"]
+[AndroidDriver] Screen already unlocked, doing nothing
+[debug] [ADB] Device API level: 18
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","start","-W","-n","com.moji.mjweather/LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+[debug] [ADB] We tried to start an activity that doesn't exist, retrying with . prepended to activity
+[debug] [ADB] Device API level: 18
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","start","-W","-n","com.moji.mjweather/.LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+[Appium] New AndroidDriver session created successfully, session 88ef9208-6c6a-427c-b44a-c9ceb03df9d3 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1496896173607 (12:29:33 GMT+0800 (中国标准时间))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"e:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true},"appPackage":"com.moji.mjweather","appActivity":"LauncherActivity","app":"e:\\apps\\moji.apk","noReset":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyboard":true,"udid":"MSM8926","platformName":"Android","deviceName":"MSM8926","resetKeyboard":true,"deviceUDID":"MSM8926","platformVersion":"4.3","deviceScreenSize":"720x1280","deviceModel":"N9180","deviceManufacturer":"ZTE"}
+[HTTP] <-- POST /wd/hub/session 200 15247 ms - 917 
+[HTTP] --> POST /wd/hub/session/88ef9208-6c6a-427c-b44a-c9ceb03df9d3/touch/perform {"actions":[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}]}
+[debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":15,"y":15}},{"action":"wait","options":{"ms":200}},{"action":"moveTo","options":{"x":15,"y":15}},{"action":"release","options":{}}],"88ef9208-6c6a-427c-b44a-c9ceb03df9d3"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":15,"startY":15,"endX":15,"endY":15,"steps":6}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":15,"startY":15,"endX":15,"endY":15,"steps":6}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=15.0, y=15.0] to [x=15.0, y=15.0] with steps: 6
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":true,"status":0}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+[HTTP] <-- POST /wd/hub/session/88ef9208-6c6a-427c-b44a-c9ceb03df9d3/touch/perform 200 176 ms - 76 
+[HTTP] --> POST /wd/hub/session/88ef9208-6c6a-427c-b44a-c9ceb03df9d3/element {"using":"id","value":"Settings"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","Settings","88ef9208-6c6a-427c-b44a-c9ceb03df9d3"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"Settings","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"Settings","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'Settings' using 'ID' with the contextId: '' multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.moji.mjweather:id/Settings]
+[debug] [AndroidBootstrap] Emitting alert message...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/Settings]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=Settings]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=Settings, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'Settings' using 'ID' with the contextId: '' multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.moji.mjweather:id/Settings]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/Settings]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=Settings]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=Settings, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"No element found","status":7}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[HTTP] <-- POST /wd/hub/session/88ef9208-6c6a-427c-b44a-c9ceb03df9d3/element 500 3016 ms - 164 
+[HTTP] --> GET /wd/hub/session/88ef9208-6c6a-427c-b44a-c9ceb03df9d3/screenshot {}
+[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["88ef9208-6c6a-427c-b44a-c9ceb03df9d3"]
+[debug] [ADB] Device API level: 18
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","/system/bin/rm","/data/local/tmp/screenshot.png;","/system/bin/screencap","-p","/data/local/tmp/screenshot.png"]
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","pull","/data/local/tmp/screenshot.png","C:\\Users\\MLEI~1.ZHA\\AppData\\Local\\Temp\\appium11758-9196-n8c58l.khicg.png"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","dumpsys","input"]
+[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBCXRW5bmw4fvZe39vEkIgEEhABBSQURxA4IgIAkJREAcGh1aXAx6x6NGKqMs6tVZbh9ajra0eVCwgdQC1jhyXoOJARVSQQayIMs8BkgDJ++29n3/trvV15aQMIQSMf9/rEkBxHMdxHMdxHKdaPBzHcRzHcRzHqTYPx3Ecx3Ecx3GqzcNxHMdxHMdxnGrzcBzHcRzHcRyn2jwcx3Ecx3Ecx6k2D8dxHMdxHMdxqs3DcRzHcRzHcZxq83Acx3Ecx3Ecp9o8HMdxHMdxHMeptgDHcRzHqUOuv/56fvGLX1CvXj2qy1rL+PHjmTRpEhUVFXwfhg0bRmWvv/46qorz/SgqKuKCCy7giiuu4JhjjiEIAuqqMAxZuXIlTz75JM888wzr1q3Dqdt84C4cx3Ecp46YOXMmDRs2xPM8PM/D8zw8z8PzPDzPw/M8PM/D8zw8z8PzPFKpFIMHD6aiooJ58+YRRRGHW4cOHVi6dCmbNm2iqKiIr776Cuf70axZM5555hnGjh1Ls2bNCIIAz/PwPA/P8/A8D8/z8DwPz/PwPA/P8/A8D8/z8DwPz/PwPA/P8/A8D8/z8DwPz/PwPA/P8/A8D8/z8DwPz/PwPA/P8/A8D8/z8DwPz/PwPA/P8/A8D8/z8DwPz/PwPA/P8wiCgCZNmnD66afTp08fZs2axfbt23HqrgDHcRzHqUNyc3OpCWMMP//5z9m2bRsTJ04kiiIOtx07duB8/y6++GIGDBjAZ599xk9/+lPmzZtHXde1a1cee+wxTj75ZC699FLuvPNOnLrLw3Ecx3H+P5Gbm8uDDz7IddddRyqV4nATETJEhLqgsLCQJk2acLAKCwtp0qQJNZGXl0fLli05XC6//HJEhGuuuYb58+fzQ7B48WLGjRtHHMf85Cc/oa4qLCykefPmHGpFRUU0b96cg5GdnU3Lli05FAIOA9/3OfPMM2nXrh0v...
+[HTTP] <-- GET /wd/hub/session/88ef9208-6c6a-427c-b44a-c9ceb03df9d3/screenshot 200 2056 ms - 1351282 
+[HTTP] --> DELETE /wd/hub/session/88ef9208-6c6a-427c-b44a-c9ceb03df9d3 {}
+[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["88ef9208-6c6a-427c-b44a-c9ceb03df9d3"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1496896178929 (12:29:38 GMT+0800 (中国标准时间))
+[debug] [AndroidDriver] Shutting down Android driver
+[debug] [AndroidDriver] Resetting IME to io.appium.android.ime/.UnicodeIME
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","force-stop","com.moji.mjweather"]
+[debug] [ADB] Pressing the HOME button
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","input","keyevent",3]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"OK, shutting down","status":0}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 12.319
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[debug] [UiAutomator] Shutting down UiAutomator
+[debug] [UiAutomator] Moving to state 'stopping'
+[debug] [UiAutomator] UiAutomator shut down normally
+[debug] [UiAutomator] Moving to state 'stopped'
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[debug] [UiAutomator] Moving to state 'stopped'
+[debug] [Logcat] Stopping logcat capture
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","MSM8926","shell","am","force-stop","io.appium.unlock"]
+[debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[Appium] Removing session 88ef9208-6c6a-427c-b44a-c9ceb03df9d3 from our master session list
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1496896182335 (12:29:42 GMT+0800 (中国标准时间))
+[debug] [MJSONWP] Received response: null
+[debug] [MJSONWP] But deleting session, so not returning
+[debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/88ef9208-6c6a-427c-b44a-c9ceb03df9d3 200 3405 ms - 76 

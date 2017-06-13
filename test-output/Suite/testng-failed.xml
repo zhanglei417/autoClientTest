@@ -19,13 +19,6 @@
     <parameter name="port" value="4490"/>
     <parameter name="udid" value="MSM8926"/>
     <classes>
-      <class name="com.moji.appium.testcases.testmoji">
-        <methods>
-          <include name="testSettings"/>
-          <include name="aftertest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.moji.appium.testcases.testmoji -->
       <class name="com.moji.appium.testcases.testmoji2">
         <methods>
           <include name="setUp"/>
@@ -33,6 +26,13 @@
           <include name="testSettings"/>
         </methods>
       </class> <!-- com.moji.appium.testcases.testmoji2 -->
+      <class name="com.moji.appium.testcases.testmoji">
+        <methods>
+          <include name="testSettings"/>
+          <include name="aftertest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.moji.appium.testcases.testmoji -->
     </classes>
   </test> <!-- MSM8926(failed) -->
 </suite> <!-- Failed suite [Suite] -->

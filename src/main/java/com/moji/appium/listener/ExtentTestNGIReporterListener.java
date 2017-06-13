@@ -18,9 +18,9 @@ import java.util.*;
  */
 public class ExtentTestNGIReporterListener implements IReporter {
 	static String time = mojiScreenShotListener.getCurrentTime();
-    static String filename = "report"+"_" + time +".html";
+    static String filename = time +".html";
     //生成的路径以及文件名
-    private static final String OUTPUT_FOLDER = "G:\\testReport\\";
+    private static final String OUTPUT_FOLDER = "E:\\xampp\\htdocs\\ClientReports\\";
     private static final String FILE_NAME = filename;
 //    		"report.html";
 

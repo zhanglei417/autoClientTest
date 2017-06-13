@@ -7393,3 +7393,357 @@ Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的�
 [MojiTest] 2017/06/07 12:17:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
 [MojiTest] 2017/06/07 12:17:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
 [MojiTest] 2017/06/07 12:17:40  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/px/git/autoClientTest/test.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/08 11:57:27  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 11:57:32  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2233 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/08 11:57:42  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2233 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 11:57:43  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/08 11:57:46  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 11:57:46  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/08 11:57:49  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 11:57:49  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4490 
+[MojiTest] 2017/06/08 11:57:49  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4490 -bp 2233 -U MSM8926>C:\Users\mlei.zhang\git\autoClientTest/logs/MSM89260.log执行成功 
+[MojiTest] 2017/06/08 11:57:49  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 11:57:49  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 11:57:51  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/08 12:01:48  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/08 12:02:17  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/08 12:04:4  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:04:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:04:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 12:04:4  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/08 12:04:4  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:04:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:04:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/08 12:04:4  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2233 
+[MojiTest] 2017/06/08 12:04:4  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2233 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 12:04:5  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/08 12:04:8  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 12:04:8  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4490 
+[MojiTest] 2017/06/08 12:04:8  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4490 -bp 2233 -U MSM8926>C:\Users\mlei.zhang\git\autoClientTest/logs/MSM89260.log执行成功 
+[MojiTest] 2017/06/08 12:04:8  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:04:8  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:04:34  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/06/08 12:04:59  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/06/08 12:04:59  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:04:59  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:04:59  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/08 12:04:59  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:05:0  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 12:17:25  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了4490 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4491 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/08 12:17:25  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2234 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:17:25  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 12:17:25  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了4490 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4491 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/08 12:17:26  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2234 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/08 12:17:26  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/06/08 12:17:29  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/06/08 12:17:29  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4491 
+[MojiTest] 2017/06/08 12:17:29  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4491 -bp 2234 -U MSM8926>C:\Users\mlei.zhang\git\autoClientTest/logs/MSM89260.log执行成功 
+[MojiTest] 2017/06/08 12:17:29  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:17:29  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:17:55  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/06/08 12:18:21  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:18:21  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/08 12:28:46  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:28:46  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:28:46  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 12:28:46  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/08 12:28:46  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/08 12:28:47  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/06/08 12:28:47  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2234 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2235
+ 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2235 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:28:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/08 12:28:47  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/06/08 12:28:48  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/06/08 12:28:48  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2234 
+[MojiTest] 2017/06/08 12:28:48  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2235
+ 
+[MojiTest] 2017/06/08 12:28:48  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2235 
+[MojiTest] 2017/06/08 12:28:48  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:28:48  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:28:48  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 12:28:48  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/08 12:28:51  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/08 12:28:51  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4490 
+[MojiTest] 2017/06/08 12:28:51  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4490 -bp 2235 -U MSM8926>C:\Users\mlei.zhang\git\autoClientTest/logs/MSM89260.log执行成功 
+[MojiTest] 2017/06/08 12:28:51  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/08 12:28:51  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/08 12:29:18  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/06/08 12:29:43  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/08 12:29:43  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/13 17:15:36  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/13 17:15:40  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
