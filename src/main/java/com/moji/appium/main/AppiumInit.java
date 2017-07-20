@@ -29,7 +29,7 @@ public class AppiumInit {
 			}
 //		classesList.add("com.mushishi.appium.business.LoginBusiness");
 			classesList.add("com.moji.appium.testcases.testmoji");
-			classesList.add("com.moji.appium.testcases.testmoji2");
+//			classesList.add("com.moji.appium.testcases.testmoji2");
 			try {
 				System.out.println(classesList.get(0));
 				XmlUtil.createTestngXml(classesList);

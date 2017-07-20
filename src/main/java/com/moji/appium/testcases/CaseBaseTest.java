@@ -9,7 +9,7 @@ import com.moji.appium.util.ProUtil;
 
 public class CaseBaseTest {
 	
-	protected static AppiumDriver driver;
+	protected static AndroidDriverBase driver;
 
 	public AndroidDriverBase driverInit(String udid, String port)
 			throws Exception {
@@ -28,7 +28,7 @@ public class CaseBaseTest {
 		
 	}
 	
-	public static AppiumDriver getDriver(){
+	public static AndroidDriverBase getDriver(){
 		return driver;
 	}    
 

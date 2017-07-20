@@ -7747,3 +7747,1003 @@ Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的�
 [MojiTest] 2017/06/13 17:15:36  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
 [MojiTest] 2017/06/13 17:15:40  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
  
+[MojiTest] 2017/06/19 16:31:51  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/19 16:31:56  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2233 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/19 16:32:31  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/19 16:32:33  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/19 16:32:33  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/06/19 16:32:33  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/19 16:32:33  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/19 16:32:34  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/06/19 16:32:34  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2233 
+[MojiTest] 2017/06/19 16:32:34  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/19 16:32:34  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/19 16:32:34  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/19 16:32:34  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/19 16:32:37  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/19 16:32:37  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/06/19 16:32:40  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/06/19 16:32:40  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4490 
+[MojiTest] 2017/06/19 16:32:40  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4490 -bp 2233 -U MSM8926>C:\Users\mlei.zhang\git\autoClientTest/logs/MSM89260.log执行成功 
+[MojiTest] 2017/06/19 16:32:40  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/06/19 16:32:40  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/06/19 16:33:11  DEBUG TestNG-tests-1 com.moji.appium.util.DosCmd:22 - TestNG-tests-1获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/06/19 16:33:40  DEBUG TestNG-tests-1 com.moji.appium.util.DosCmd:22 - TestNG-tests-1获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/19 16:33:41  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/26 12:10:11  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/26 12:10:12  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:12  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/26 12:10:38  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/26 12:10:40  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:10:40  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/26 12:13:25  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/26 12:13:26  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:13:26  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/26 12:18:6  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/26 12:18:7  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/26 12:18:8  DEBUG pool-1-thread-1 for channel id=2 freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/28 19:11:50  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/28 19:11:51  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/28 19:11:51  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:11:51  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:11:51  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/28 19:11:51  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:11:52  DEBUG pool-1-thread-1 for channel id=7 freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/28 19:18:59  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/28 19:19:1  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:1  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:2  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/28 19:19:29  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/28 19:19:30  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/28 19:19:30  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:30  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:30  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:30  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:19:31  DEBUG pool-1-thread-1 for channel id=12 freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/28 19:20:4  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/28 19:20:5  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:20:5  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:20:6  DEBUG pool-1-thread-1 for channel id=17 freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/06/28 19:24:18  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/28 19:24:19  DEBUG TestNG com.moji.appium.util.DosCmd:22 - TestNG获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/06/28 19:24:19  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/06/28 19:24:20  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/e:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/07/20 10:05:56  DEBUG TestNG-tests-1 com.moji.appium.util.DosCmd:22 - TestNG-tests-1获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/07/20 10:05:57  DEBUG TestNG-tests-1 com.moji.appium.util.DosCmd:22 - TestNG-tests-1获取adb devicesList成功： adb -s null shell " ime set null"
+ 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:05:58  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2233 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/07/20 10:06:16  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2233 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:06:17  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/07/20 10:06:21  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:06:21  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/07/20 10:06:24  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:06:24  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4490 
+[MojiTest] 2017/07/20 10:06:24  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4490 -bp 2233 -U MSM8926>C:\Users\mlei.zhang\git\autoClientTest/logs/MSM89260.log执行成功 
+[MojiTest] 2017/07/20 10:06:24  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:06:24  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:07:1  DEBUG TestNG-tests-1 com.moji.appium.util.DosCmd:22 - TestNG-tests-1获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/07/20 10:07:39  DEBUG TestNG-tests-1 com.moji.appium.util.DosCmd:22 - TestNG-tests-1获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/07/20 10:07:39  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached. 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:07:40  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/07/20 10:26:2  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:26:2  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:26:3  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了4490 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4491 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/07/20 10:26:3  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2234 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/07/20 10:26:3  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:26:4  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了4490 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4491 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/07/20 10:26:4  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2234 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:26:4  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:26:5  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/07/20 10:26:5  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/07/20 10:26:8  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/07/20 10:26:8  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/07/20 10:26:11  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/07/20 10:26:11  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4491 
+[MojiTest] 2017/07/20 10:26:11  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4491 -bp 2234 -U MSM8926>C:\Users\mlei.zhang\git\autoClientTest/logs/MSM89260.log执行成功 
+[MojiTest] 2017/07/20 10:26:11  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:26:11  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:26:44  DEBUG TestNG-tests-1 com.moji.appium.util.DosCmd:22 - TestNG-tests-1获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:26:44  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/07/20 10:28:59  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:28:59  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:28:59  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:28:59  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/07/20 10:28:59  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:28:59  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/07/20 10:29:0  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/07/20 10:29:0  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2234 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2235
+ 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2235 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4490 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:29:0  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:29:1  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/07/20 10:29:1  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2233 
+[MojiTest] 2017/07/20 10:29:1  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2234
+ 
+[MojiTest] 2017/07/20 10:29:1  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了2234 
+[MojiTest] 2017/07/20 10:29:1  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2235
+ 
+[MojiTest] 2017/07/20 10:29:1  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2235 
+[MojiTest] 2017/07/20 10:29:1  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:29:1  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:29:1  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:29:1  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/07/20 10:29:4  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:29:4  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4490 
+[MojiTest] 2017/07/20 10:29:7  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 10:29:7  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4490 
+[MojiTest] 2017/07/20 10:29:7  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4490 -bp 2235 -U MSM8926>C:\Users\mlei.zhang\git\autoClientTest/logs/MSM89260.log执行成功 
+[MojiTest] 2017/07/20 10:29:7  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 10:29:8  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 10:29:43  DEBUG TestNG-tests-1 com.moji.appium.util.DosCmd:22 - TestNG-tests-1获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/07/20 10:29:44  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 
+[MojiTest] 2017/07/20 10:38:35  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb root
+ 
+[MojiTest] 2017/07/20 10:44:33  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb root
+ 
+[MojiTest] 2017/07/20 10:44:34  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb shell /data/local/tcpdump -i any -p -s 0 -w
+ 
+[MojiTest] 2017/07/20 10:44:45  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： start
+ 
+[MojiTest] 2017/07/20 10:45:11  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb root
+ 
+[MojiTest] 2017/07/20 10:45:43  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： start adb shell /data/local/tcpdump -i any -p -s 0
+ 
+[MojiTest] 2017/07/20 10:45:47  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： start
+ 
+[MojiTest] 2017/07/20 10:46:12  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb root
+ 
+[MojiTest] 2017/07/20 10:47:3  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb root
+ 
+[MojiTest] 2017/07/20 10:47:18  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： start adb shell /data/local/tcpdump -i any -p -s 0
+ 
+[MojiTest] 2017/07/20 10:47:29  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： start dir
+ 
+[MojiTest] 2017/07/20 10:48:19  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb root
+ 
+[MojiTest] 2017/07/20 10:48:20  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb shell /data/local/tcpdump -i any -G 10 -p -s 0
+ 
+[MojiTest] 2017/07/20 10:48:42  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： start dir
+ 
+[MojiTest] 2017/07/20 11:37:10  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 11:37:11  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了4490 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4491 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2233 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main命令taskkill -F -PID node.exe执行成功 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - mainnode服务清理成功 
+[MojiTest] 2017/07/20 11:37:11  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 11:37:12  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 11:37:12  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4490
+ 
+[MojiTest] 2017/07/20 11:37:12  ERROR main com.moji.appium.util.DosCmd:46 - main端口被占用了4490 
+[MojiTest] 2017/07/20 11:37:12  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/07/20 11:37:12  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用4491 
+[MojiTest] 2017/07/20 11:37:12  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 11:37:12  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 11:37:12  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： netstat -ano|findstr 2233
+ 
+[MojiTest] 2017/07/20 11:37:12  DEBUG main com.moji.appium.util.DosCmd:22 - main端口没被占用2233 
+[MojiTest] 2017/07/20 11:37:12  DEBUG main com.moji.appium.util.DosCmd:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 11:37:12  DEBUG main com.moji.appium.util.DosCmd:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 11:37:13  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/07/20 11:37:13  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/07/20 11:37:16  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/07/20 11:37:16  DEBUG main com.moji.appium.server.Port:22 - main端口没被占用4491 
+[MojiTest] 2017/07/20 11:37:19  DEBUG main com.moji.appium.server.Port:22 - main获取adb devicesList成功： netstat -ano|findstr 4491
+ 
+[MojiTest] 2017/07/20 11:37:19  ERROR main com.moji.appium.server.Port:46 - main端口被占用了4491 
+[MojiTest] 2017/07/20 11:37:19  DEBUG main com.moji.appium.server.Port:22 - main命令appium -p4491 -bp 2233 -U MSM8926>C:\Users\mlei.zhang\git\autoClientTest/logs/MSM89260.log执行成功 
+[MojiTest] 2017/07/20 11:37:19  DEBUG main com.moji.appium.server.Servers:22 - main当前运行的是class com.moji.appium.server.Servers类的----》》》com.moji.appium.server.Servers方法 
+[MojiTest] 2017/07/20 11:37:19  DEBUG main com.moji.appium.server.Servers:22 - main获取adb devicesList成功： adb devices
+ 
+[MojiTest] 2017/07/20 11:37:53  DEBUG TestNG-tests-1 com.moji.appium.util.DosCmd:22 - TestNG-tests-1获取adb devicesList成功： adb -s MSM8926 shell " ime set com.moji.mjweather/.LauncherActivity"
+ 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl" 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl" 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl" 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl" 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl" 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl" 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl" 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl" 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl" 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it. 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found 
+[MojiTest] 2017/07/20 11:37:53  DEBUG main freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/E:/repository/com/aventstack/extentreports/3.0.5/extentreports-3.0.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl" 

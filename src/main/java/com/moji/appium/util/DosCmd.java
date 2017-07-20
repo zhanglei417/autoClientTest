@@ -99,7 +99,16 @@ public class DosCmd {
 
 	public static void main(String args[]) throws InterruptedException, IOException{
 		DosCmd dos = new DosCmd();
-		new DosCmd().execCmd("appium -p4490 -bp 2233 -U MSM8926");
+//		new DosCmd().execCmd("appium -p4490 -bp 2233 -U MSM8926");
+		dos.execCmdConsonle("adb root");
+		Thread.sleep(1000);
+		List<String> tests = dos.execCmdConsonle("adb shell /data/local/tcpdump -i any -G 10 -p -s 0");
+		Thread.sleep(2000);
+		dos.execCmdConsonle("start dir");
+		Thread.sleep(2000);
+		for (int i = 0; i < tests.size(); i++) {
+			System.out.println(tests.get(i));
+			}
 	}
 
 }
